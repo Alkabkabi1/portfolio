@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="نورة محمد الكبكبي — مهندسة برمجيات ومعيدة طموحة في جامعة أم القرى. سجل أكاديمي متميز، شغف بشرح المفاهيم في جلسات الدراسة الودية، ومشاريع موثّقة.">
+  <title>نورة محمد الكبكبي — معرض أعمال · معيدة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var th = localStorage.getItem('portfolio-theme');
+      var loc = localStorage.getItem('portfolio-locale');
+      document.documentElement.setAttribute('data-theme', th === 'dark' ? 'dark' : 'light');
+      if (loc === 'en') {
+        document.documentElement.setAttribute('lang', 'en');
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+    })();
+  </script>
+</head>
+<body>
+
+  <nav class="nav" aria-label="التنقل الرئيسي">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">Norah<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">عني</a></li>
+        <li><a href="#highlights" data-i18n="nav.highlights">نظرة سريعة</a></li>
+        <li><a href="#academics" data-i18n="nav.academics">الأكاديمي</a></li>
+        <li><a href="#teaching" data-i18n="nav.teaching">شرح المفاهيم</a></li>
+        <li><a href="#strengths" data-i18n="nav.strengths">مهاراتي</a></li>
+        <li><a href="#training" data-i18n="nav.training">التدريب</a></li>
+        <li><a href="#project" data-i18n="nav.project">رواد</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">تواصل</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="locale-toggle" type="button" aria-label="Switch to English">English</button>
+        <button class="theme-toggle" type="button" aria-label="التبديل إلى الوضع الداكن" title="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          <span data-i18n="hero.eyebrow">معدل 3.66/4 · 164 ساعة · جامعة أم القرى · هندسة برمجيات</span>
+        </div>
+        <h1 data-i18n-html="hero.title"><span class="highlight">3.66 GPA</span> · تدريب مستشفى الملك عبد العزيز · مشروع تخرج <span class="highlight">رواد</span></h1>
+        <p class="hero-tagline" data-i18n="hero.tagline">
+          نورة محمد الكبكبي — خريجة هندسة برمجيات ومعيدة طموحة. أدلة موثّقة: سجل أكاديمي، تدريب تعاوني منشور، ومشروع تخرج مرتبط بـ SRS واختبارات Pest.
+        </p>
+        <div class="hero-actions">
+          <a href="#highlights" class="btn btn-primary" data-i18n="hero.btn.highlights">نظرة سريعة</a>
+          <a href="#academics" class="btn btn-ghost" data-i18n="hero.btn.academics">السجل الأكاديمي</a>
+        </div>
+      </div>
+      <div class="hero-stats" data-i18n-aria="hero.stats.aria" aria-label="أبرز الإنجازات">
+        <div class="stat-card">
+          <span class="stat-value">3.66</span>
+          <span class="stat-label" data-i18n="hero.stat1">معدل تراكمي · ممتاز</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">164</span>
+          <span class="stat-label" data-i18n="hero.stat2">ساعة معتمدة مكتملة</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">67</span>
+          <span class="stat-label" data-i18n="hero.stat3">اختبار آلي · مستشفى الملك عبد العزيز</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">18+</span>
+          <span class="stat-label" data-i18n="hero.stat4">اختبار Pest · مشروع رواد</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="highlights" class="section highlights-section">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="highlights.label">نظرة سريعة</p>
+      <h2 class="section-title" data-i18n="highlights.title">ثلاثة أدلة — 30 ثانية</h2>
+      <div class="highlights-summary-grid">
+        <a href="#academics" class="summary-card">
+          <p class="summary-metric">3.66</p>
+          <h3 data-i18n="highlights.academics.t">السجل الأكاديمي</h3>
+          <p data-i18n="highlights.academics.d">164 ساعة · A/A+ في مقررات صعبة · تقييم ممتاز</p>
+        </a>
+        <a href="#training" class="summary-card">
+          <p class="summary-metric">67</p>
+          <h3 data-i18n="highlights.training.t">التدريب التعاوني</h3>
+          <p data-i18n="highlights.training.d">مستشفى الملك عبد العزيز · نظامان منشوران · شهادة شكر وتقدير</p>
+        </a>
+        <a href="#project" class="summary-card">
+          <p class="summary-metric">SRS</p>
+          <h3 data-i18n="highlights.ruwad.t">مشروع رواد</h3>
+          <p data-i18n="highlights.ruwad.d">Laravel + Svelte · 18+ اختبار Pest · ruwad.space</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" style="padding-top: 0;">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="about.label">عني</p>
+      <h2 class="section-title" data-i18n="about.title">زميلة مستقبلية · تميز أكاديمي وشغف بالشرح</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n-html="about.p1">أنا <strong>نورة محمد الكبكبي</strong> — خريجة هندسة البرمجيات من جامعة أم القرى، أسعى للمساهمة كـ<strong>معيدة</strong>. أجمع بين سجل أكاديمي قوي، تدريب تعاوني في مستشفى الملك عبد العزيز، ومشروع تخرج <strong>رواد</strong> موثّق بـ SRS واختبارات Pest.</p>
+          <p data-i18n-html="about.p2">في <strong>جلسات الدراسة الودية</strong> أشرح المفاهيم التقنية بلغة بسيطة. أهتم بالتوثيق والاختبارات — لأنها ما يمكّن الفريق والمُصحِّح من متابعة العمل دون تخمين.</p>
+        </div>
+        <ul class="focus-list">
+          <li data-i18n="about.f1">سجل أكاديمي · معدل 3.66 · 164 ساعة</li>
+          <li data-i18n="about.f2">تدريب تعاوني · نظامان · 67 اختباراً · شهادة تقدير</li>
+          <li data-i18n="about.f3">مشروع رواد · SRS · Pest · ثنائي اللغة</li>
+          <li data-i18n="about.f4">اختبارات Pest وDevOps وتوثيق منظم</li>
+          <li data-i18n="about.f5">شرح المفاهيم في جلسات الدراسة الودية</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="academics" class="section" style="padding-top: 0;">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="academics.label">السجل الأكاديمي</p>
+      <h2 class="section-title" data-i18n="academics.title">السجل الأكاديمي — القسم الأبرز</h2>
+      <p class="section-lead" data-i18n="academics.lead">تميز أكاديمي موثّق ومقررات صعبة بدرجات A وA+ — من سجلي الرسمي في كلية الحاسبات بجامعة أم القرى.</p>
+
+      <article class="education-card">
+        <div class="education-header">
+          <div>
+            <h3 data-i18n="edu.title">بكالوريوس هندسة البرمجيات</h3>
+            <p class="education-school" data-i18n="edu.school">جامعة أم القرى · كلية الحاسبات</p>
+            <p class="education-degree" data-i18n="edu.degree">بكالوريوس هندسة برمجيات · انتظام</p>
+            <div class="academic-badges">
+              <span class="badge badge-live" data-i18n="academics.badge.excellent">ممتاز</span>
+              <span class="badge badge-deployed" data-i18n="academics.badge.gpa">معدل 3.66</span>
+              <span class="badge badge-health" data-i18n="academics.badge.hours">164 ساعة مكتملة</span>
+            </div>
+          </div>
+          <div class="education-stats">
+            <div class="edu-stat">
+              <strong>3.66</strong>
+              <span data-i18n="edu.gpa">المعدل التراكمي</span>
+            </div>
+            <div class="edu-stat">
+              <strong>164</strong>
+              <span data-i18n="edu.hours">الساعات المجتازة</span>
+            </div>
+          </div>
+        </div>
+        <a href="assets/academic-record.pdf" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="edu.link">عرض السجل الأكاديمي (PDF)</a>
+      </article>
+
+      <div class="academic-strengths-grid academic-strengths-compact">
+        <article class="academic-strength-card">
+          <h4 data-i18n="academics.overall.title">الأداء العام</h4>
+          <p data-i18n-html="academics.overall.desc">معدل تراكمي <strong>3.66 من 4.00</strong>.</p>
+        </article>
+        <article class="academic-strength-card">
+          <h4 data-i18n="academics.top.title">أعلى الدرجات (A+)</h4>
+          <p data-i18n-html="academics.top.desc">هندسة الويب <strong>100</strong>، التدريب التعاوني <strong>100</strong>.</p>
+        </article>
+      </div>
+
+      <p class="section-label difficult-courses-label" data-i18n="academics.courses.label">مقررات صعبة — درجات A وA+</p>
+      <p class="section-lead" data-i18n="academics.courses.lead">درجات من السجل الرسمي — مقررات يُعرف بصعوبتها في تخصص هندسة البرمجيات.</p>
+
+      <div class="difficult-courses-grid">
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c1.name">الخوارزميات</h4>
+            <span class="course-grade">A+</span>
+          </div>
+          <p class="course-code">CS2315 · 95</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c2.name">البرمجة الموزّعة</h4>
+            <span class="course-grade">A+</span>
+          </div>
+          <p class="course-code">SE3120 · 96</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c3.name">اختبار البرمجيات</h4>
+            <span class="course-grade">A+</span>
+          </div>
+          <p class="course-code">SE3110 · 95</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c4.name">قواعد البيانات</h4>
+            <span class="course-grade">A</span>
+          </div>
+          <p class="course-code">CS2231 · 93</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c5.name">هندسة الويب</h4>
+            <span class="course-grade">A+</span>
+          </div>
+          <p class="course-code">SE3210 · 100</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card-header">
+            <h4 data-i18n="academics.c6.name">هياكل البيانات</h4>
+            <span class="course-grade">B+</span>
+          </div>
+          <p class="course-code">CS2214 · 86</p>
+        </article>
+      </div>
+
+      <p class="peer-impact-callout" data-i18n-html="academics.peer.callout"><strong>مع الزملاء:</strong> ما درّست رسمياً — لكن في <strong>جلسات الدراسة الودية</strong> أشرح المفاهيم التقنية بلغة بسيطة عندما يطلبون المساعدة.</p>
+
+      <article id="teaching" class="teaching-section">
+        <p class="section-label" data-i18n="teaching.label">موارد للطلاب</p>
+        <h3 class="section-title" style="font-size: 1.35rem; margin-bottom: 0.5rem;" data-i18n="teaching.title">شرح المفاهيم — معمارية MVC في 3 دقائق</h3>
+        <p class="section-lead" style="margin-bottom: 0;" data-i18n="teaching.lead">مثال توضيحي من مشروع رواد — يبيّن أسلوبي في الشرح: ربط النظرية بكود حقيقي موثّق.</p>
+
+        <div class="mvc-diagram" role="img" aria-label="MVC layers">
+          <div class="mvc-layer">
+            <strong data-i18n="teaching.mvc.model.t">Model</strong>
+            <span data-i18n="teaching.mvc.model.d">البيانات والقواعد — Eloquent، التحقق، Policies</span>
+          </div>
+          <div class="mvc-layer">
+            <strong data-i18n="teaching.mvc.view.t">View</strong>
+            <span data-i18n="teaching.mvc.view.d">ما يراه المستخدم — صفحات Svelte عبر Inertia</span>
+          </div>
+          <div class="mvc-layer">
+            <strong data-i18n="teaching.mvc.controller.t">Controller</strong>
+            <span data-i18n="teaching.mvc.controller.d">المنطق والتنسيق — Controllers تستدعي Model وتُرجع View</span>
+          </div>
+        </div>
+        <p class="mvc-arrow-row" data-i18n="teaching.mvc.flow">طلب المستخدم → Controller يقرر → Model يتحقق ويخزّن → View يعرض النتيجة</p>
+
+        <div class="tutorial-steps">
+          <div class="tutorial-step">
+            <span class="tutorial-step-num">1</span>
+            <div>
+              <h5 data-i18n="teaching.s1.t">مثال حقيقي من رواد</h5>
+              <p data-i18n="teaching.s1.d">ميزة تسجيل الساعات التطوعية توضّح MVC عملياً: من واجهة Svelte إلى Controller ثم Model — مسار واضح في الكود نفسه.</p>
+            </div>
+          </div>
+          <div class="tutorial-step">
+            <span class="tutorial-step-num">2</span>
+            <div>
+              <h5 data-i18n="teaching.s2.t">افصل المسؤوليات بوضوح</h5>
+              <p data-i18n="teaching.s2.d">Controller لا يحسب الساعات مباشرة — يفوّض لـ Model وPolicy. View لا تتصل بقاعدة البيانات. هذا يقلّل الأخطاء ويسهّل الاختبار.</p>
+            </div>
+          </div>
+          <div class="tutorial-step">
+            <span class="tutorial-step-num">3</span>
+            <div>
+              <h5 data-i18n="teaching.s3.t">اختبر كل طبقة على حدة</h5>
+              <p data-i18n="teaching.s3.d">في رواد، Pest يختبر Controller وPolicy وModel كلٌّ على حدة — تنظيم يسهّل المراجعة والتصحيح.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="strengths" class="section" style="padding-top: 0;">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="strengths.label">أسلوب عملي</p>
+      <h2 class="section-title" data-i18n="strengths.title">DevOps واختبارات وتوثيق والجانب الإنساني</h2>
+      <p class="section-lead" data-i18n="strengths.lead">الأدوات والعادات التي تظهر في مشاريعي.</p>
+
+      <div class="strengths-grid">
+        <article class="strength-card">
+          <span class="strength-icon" aria-hidden="true">CI</span>
+          <h3 data-i18n="strengths.devops.title">DevOps · CI والنشر</h3>
+          <p data-i18n-html="strengths.devops.desc">أجيد DevOps وطبّقتها في رواد.</p>
+        </article>
+        <article class="strength-card">
+          <span class="strength-icon" aria-hidden="true">Pest</span>
+          <h3 data-i18n="strengths.test.title">اختبارات Pest</h3>
+          <p data-i18n-html="strengths.test.desc">أحب Pest — 18+ اختبار في رواد.</p>
+        </article>
+        <article class="strength-card strength-card-featured">
+          <span class="strength-icon" aria-hidden="true">Docs</span>
+          <h3 data-i18n="strengths.docs.title">مهووسة بالتوثيق (بفخر)</h3>
+          <p data-i18n-html="strengths.docs.desc">اختصار جديد؟ <strong>وثّقيه.</strong></p>
+        </article>
+        <article class="strength-card">
+          <span class="strength-icon" aria-hidden="true">AI</span>
+          <h3 data-i18n="strengths.ai.title">هندسة المحادثات و Cursor</h3>
+          <p data-i18n-html="strengths.ai.desc">Prompt engineering مع Cursor.</p>
+        </article>
+        <article class="strength-card">
+          <span class="strength-icon" aria-hidden="true">Team</span>
+          <h3 data-i18n="strengths.team.title">لاعبة فريق ومُبسِّطة</h3>
+          <p data-i18n-html="strengths.team.desc">في جلسات الدراسة الودية يقول الزملاء إنني أبسّط المفاهيم التقنية بلغة واضحة.</p>
+        </article>
+      </div>
+
+      <div class="tech-grid" style="margin-top: 2rem;">
+        <span class="tech-tag primary">GitHub Actions</span>
+        <span class="tech-tag primary">Pest 4</span>
+        <span class="tech-tag primary">Cursor</span>
+        <span class="tech-tag">Prompt engineering</span>
+        <span class="tech-tag">CI / CD</span>
+        <span class="tech-tag">Technical writing</span>
+        <span class="tech-tag">Team integration</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="training" class="section">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="training.label">التدريب التعاوني</p>
+      <h2 class="section-title" data-i18n="training.title">مستشفى الملك عبد العزيز — مكة</h2>
+      <p class="section-lead" data-i18n="training.lead">
+        تدريب تعاوني لمدة أربعة أشهر في قسم تقنية المعلومات بمستشفى تابع لوزارة الصحة.
+      </p>
+
+      <div class="classroom-callout">
+        <h4 data-i18n="training.classroom.title">من الصناعة إلى الفصل الدراسي</h4>
+        <p data-i18n-html="training.classroom.desc">نقلت من التدريب إلى الجامعة أنماط تصميم مؤسسية — RBAC، سير عمل متعدد الموافقات، و67 اختباراً آلياً — وطبّقتها في مشاريع الفريق الجامعي.</p>
+      </div>
+
+      <div class="award-banner">
+        <div class="award-icon" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <circle cx="12" cy="8" r="5"/><path d="M8.5 13.5L7 21l5-2.5L17 21l-1.5-7.5"/>
+          </svg>
+        </div>
+        <div class="award-body">
+          <p class="award-ar" data-i18n="training.award.ar">شهادة تكريم لجهودي من مستشفى الملك عبد العزيز بالزاهر — مكة</p>
+          <h3 data-i18n="training.award.title">شهادة تكريم — مستشفى الملك عبد العزيز، الزاهر، مكة</h3>
+          <p data-i18n="training.award.desc">تقدير لأدائي المهني خلال التدريب التعاوني ومساهمتي في الصحة الرقمية.</p>
+          <p class="award-signatories" data-i18n="training.award.signatories">م. هاني محمد مياجان · د. ضياء عبد العزيز</p>
+        </div>
+      </div>
+
+      <div class="credential-gallery credential-gallery-three">
+        <figure class="credential-figure">
+          <a href="assets/certificate-appreciation.png" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificate-appreciation.png" alt="شهادة شكر وتقدير — نورة محمد الكبكبي — مستشفى الملك عبد العزيز" loading="lazy" width="600" height="420">
+          </a>
+          <figcaption data-i18n="training.award.cert.caption">الشهادة الرسمية — شهادة شكر وتقدير</figcaption>
+        </figure>
+        <figure class="credential-figure credential-figure-photo">
+          <a href="assets/certificate-ceremony.png" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificate-ceremony.png" alt="تسلّم شهادة الشكر في مستشفى الملك عبد العزيز" loading="lazy" width="600" height="420">
+          </a>
+          <figcaption data-i18n="training.award.photo.caption">تسلّم الشهادة في مستشفى الملك عبد العزيز</figcaption>
+        </figure>
+        <figure class="credential-figure credential-figure-photo">
+          <a href="assets/certificate-group.png" target="_blank" rel="noopener noreferrer">
+            <img src="assets/certificate-group.png" alt="حفل تكريم متدربي التدريب التعاوني — مستشفى الملك عبد العزيز" loading="lazy" width="600" height="420">
+          </a>
+          <figcaption data-i18n="training.award.group.caption">حفل تكريم متدربي التدريب التعاوني — مستشفى الملك عبد العزيز</figcaption>
+        </figure>
+      </div>
+
+      <article class="project-hero">
+        <div class="project-header">
+          <div class="project-meta">
+            <h3 data-i18n="training.role">قسم تقنية المعلومات · متدربة تعاونية</h3>
+            <p class="project-org" data-i18n="training.org">مستشفى الملك عبد العزيز · الزاهر، مكة · وزارة الصحة</p>
+          </div>
+          <div class="project-badges">
+            <span class="badge badge-honor" data-i18n="training.badge.honor">شهادة شكر وتقدير</span>
+            <span class="badge badge-deployed" data-i18n="training.badge.deployed">منشور على خادم المستشفى</span>
+            <span class="badge badge-health" data-i18n="training.badge.health">قطاع صحي · رؤية 2030</span>
+            <span class="badge badge-rtl" data-i18n="training.badge.bilingual">عربي / إنجليزي</span>
+          </div>
+        </div>
+        <p class="project-summary" data-i18n-html="training.summary">
+          تناوبت بين <strong>تطوير البرمجيات</strong> و<strong>الدعم الفني والصيانة</strong>.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><strong>17+</strong><span data-i18n="training.m1">نماذج إلكترونية وسير عمل</span></div>
+          <div class="metric"><strong>67</strong><span data-i18n="training.m2">اختبار آلي ناجح</span></div>
+          <div class="metric"><strong>2</strong><span data-i18n="training.m3">أنظمة كاملة مُسلّمة</span></div>
+          <div class="metric"><strong>4+1</strong><span data-i18n="training.m4">أشهر + أسبوع تحسين إضافي</span></div>
+          <div class="metric"><strong>Dec 2025</strong><span data-i18n="training.m5">تسليم التقرير النهائي</span></div>
+        </div>
+        <div class="project-links">
+          <a href="assets/Training_Report_Colored.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="training.link.pdf">قراءة تقرير التدريب الكامل (PDF)</a>
+          <a href="https://github.com/Alkabkabi1/hosipital-mangment-intermidate" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="training.link.github">مستودع GitHub</a>
+        </div>
+      </article>
+
+      <div class="systems-grid">
+        <div class="system-card">
+          <span class="system-ar" data-i18n="training.sys1.ar">نظام إدارة المستشفى والسير الإداري</span>
+          <h4 data-i18n="training.sys1.title">نظام إدارة المستشفى والسير الإداري</h4>
+          <p data-i18n="training.sys1.desc">لوحات تحكم حسب الدور وصفحات طلبات الموارد البشرية.</p>
+        </div>
+        <div class="system-card">
+          <span class="system-ar" data-i18n="training.sys2.ar">نظام إدارة الصيانة ومركز البيانات</span>
+          <h4 data-i18n="training.sys2.title">نظام إدارة الصيانة ومركز البيانات</h4>
+          <p data-i18n="training.sys2.desc">مصادقة الموظفين، تذاكر، مراقبة الخوادم، والنسخ الاحتياطي.</p>
+        </div>
+      </div>
+
+      <p class="section-label" data-i18n="training.timeline.label">الجدول الزمني للتدريب</p>
+      <p class="section-lead" style="margin-bottom: 1.25rem;" data-i18n="training.timeline.lead">ملخص شهري — انقري للتفاصيل (التقرير الكامل في PDF).</p>
+
+      <div class="contributions">
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">M1</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="training.m1.title">الشهر 1 — أساسيات نظام المستشفى</h4>
+                <p data-i18n="training.m1.sub">المتطلبات · ERD · لوحات التحكم · الملفات والوارد</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <p data-i18n="training.m1.summary">جمع المتطلبات، ERD، لوحات تحكم حسب الدور، وصفحات طلبات الموارد البشرية الأساسية.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">M2</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="training.m2.title">الشهر 2 — الصيانة وتوسعة النظام</h4>
+                <p data-i18n="training.m2.sub">غرفة الخوادم · المفوضون · تعيين الأدوار · النشر</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <p data-i18n="training.m2.summary">جولات غرفة الخوادم، إدارة المفوضين، تعيين الأدوار، ترحيل MySQL، والنشر على خادم المستشفى.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">M3</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="training.m3.title">الشهر 3 — إدارة الصيانة ومركز البيانات</h4>
+                <p data-i18n="training.m3.sub">وصول خارجي · أدوات إدارية · مراقبة الخوادم · النسخ الاحتياطي</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <p data-i18n="training.m3.summary">نظام صيانة ومركز بيانات: RBAC، تذاكر، مراقبة خوادم، نسخ احتياطي، وواجهة ثنائية اللغة.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">M4</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="training.m4.title">الشهر 4 — التحسينات والأمان والتوثيق</h4>
+                <p data-i18n="training.m4.sub">تحسين API · موافقات متعددة · 67 اختبار · PMP ودليل المستخدم</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <p data-i18n-html="training.m4.summary">17+ نموذج HR، موافقات متعددة، أمان (CSP)، <strong>67 اختباراً آلياً</strong>، PMP، ودليل مستخدم — التفاصيل في تقرير PDF.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contributions" style="margin-top: 1.25rem;">
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">17+</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="training.forms.label">أكثر من 17 فئة نماذج</h4>
+                <p data-i18n="training.forms.sub">إخلاء طرف · إجازات · سفر · كفالات · وصف وظيفي</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="forms-grid">
+                <div class="form-chip"><strong data-i18n="training.forms.c1">أساسية (3)</strong><span data-i18n="training.forms.f1">إخلاء طرف، مباشرة عمل، تفويض</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c2">شهادات (2)</strong><span data-i18n="training.forms.f2">شهادة تعريف، شهادة خبرة</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c3">تكليف (3)</strong><span data-i18n="training.forms.f3">قرار تكليف، إنهاء تكليف، نقل داخلي</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c4">إجازات (2)</strong><span data-i18n="training.forms.f4">إجازة، إجازة رعاية مولود</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c5">سكن (2)</strong><span data-i18n="training.forms.f5">بدل سكن أطباء سعوديين، بدل سكن المتعاقدين</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c6">سفر (4)</strong><span data-i18n="training.forms.f6">أوامر سفر، طلبات تذاكر وتعويضات</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c7">كفالات (3)</strong><span data-i18n="training.forms.f7">كفالات غرم وأداء وحضور</span></div>
+                <div class="form-chip"><strong data-i18n="training.forms.c8">أخرى (2)</strong><span data-i18n="training.forms.f8">صرف مستحقات، إنهاء عمل ووصف وظيفي</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="section-label" style="margin-top: 2.5rem;" data-i18n="training.stack">التقنيات</p>
+      <div class="tech-grid">
+        <span class="tech-tag primary">Node.js</span>
+        <span class="tech-tag primary">Express.js</span>
+        <span class="tech-tag primary">MySQL</span>
+        <span class="tech-tag">HTML / CSS / JavaScript</span>
+        <span class="tech-tag">REST APIs</span>
+        <span class="tech-tag">RBAC</span>
+        <span class="tech-tag">Automated testing</span>
+        <span class="tech-tag">CSP &amp; rate limiting</span>
+        <span class="tech-tag">Server deployment</span>
+        <span class="tech-tag">Bilingual AR/EN</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="section">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="ruwad.label">مشروع التخرج — أداة تعليمية</p>
+      <h2 class="section-title" data-i18n="ruwad.title">رواد</h2>
+      <p class="section-lead" data-i18n="ruwad.lead">
+        مشروع تخرّج موثّق بدقة — مصمَّم ليُقيَّم ويُدرَّس: SRS، اختبارات Pest، وفروع وثائق محفوظة.
+      </p>
+
+      <div class="teaching-tool-box">
+        <h4 data-i18n="ruwad.teaching.title">المفاهيم الأساسية في المشروع — وكيف يمكن شرحها</h4>
+        <p data-i18n-html="ruwad.teaching.desc">المشروع يطبّق <strong>معمارية MVC + Inertia</strong> (مسار الطلب من Svelte إلى Laravel)، و<strong>Policies للتحقق</strong> (من يستطيع تعديل ماذا)، و<strong>اختبارات Pest مرتبطة بـ SRS</strong> — كل متطلب له اختبار. الوثائق والكود منظّمان ليسهل على المُصحِّح أو الزميل متابعتهما.</p>
+      </div>
+
+      <article class="project-hero">
+        <div class="project-header">
+          <div class="project-meta">
+            <h3>Ruwad</h3>
+            <p class="project-org" data-i18n="ruwad.org">جامعة أم القرى · منصة الأندية الطلابية</p>
+          </div>
+          <div class="project-badges">
+            <span class="badge badge-live" data-i18n="ruwad.badge.live">فعّال على main</span>
+            <span class="badge badge-team" data-i18n="ruwad.badge.team">مشروع جماعي</span>
+            <span class="badge badge-rtl" data-i18n="ruwad.badge.rtl">عربي أولاً RTL</span>
+            <span class="badge badge-deployed" data-i18n="ruwad.badge.devops">DevOps · GitHub Actions</span>
+          </div>
+        </div>
+        <p class="project-summary" data-i18n-html="ruwad.summary">
+          Laravel 13 + Inertia.js v3 + Svelte 5 + Pest 4 + Filament v4.
+        </p>
+        <div class="project-metrics">
+          <div class="metric"><strong>9</strong><span data-i18n="ruwad.met1">مصانع Eloquent</span></div>
+          <div class="metric"><strong>11</strong><span data-i18n="ruwad.met2">بذور قاعدة البيانات</span></div>
+          <div class="metric"><strong>21</strong><span data-i18n="ruwad.met3">مجموعات ترجمة عربي/إنجليزي</span></div>
+          <div class="metric"><strong>3</strong><span data-i18n="ruwad.met4">أنواع تقارير PDF</span></div>
+          <div class="metric"><strong>6</strong><span data-i18n="ruwad.met5">قوالب Blade لـ PDF</span></div>
+        </div>
+        <div class="project-links">
+          <a href="https://ruwad.space" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="ruwad.link.live">ruwad.space — المنصة الحية</a>
+          <a href="#contributions" class="btn btn-ghost" data-i18n="ruwad.link.docs">المساهمات التقنية والوثائق</a>
+        </div>
+      </article>
+
+      <p class="section-label" style="margin-top: 2rem;" data-i18n="training.stack">التقنيات</p>
+      <div class="tech-grid">
+        <span class="tech-tag primary">Laravel 13</span>
+        <span class="tech-tag primary">Inertia.js v3</span>
+        <span class="tech-tag primary">Svelte 5</span>
+        <span class="tech-tag primary">Pest 4</span>
+        <span class="tech-tag primary">Filament v4</span>
+        <span class="tech-tag">Eloquent ORM</span>
+        <span class="tech-tag">DomPDF</span>
+        <span class="tech-tag">ar-php</span>
+        <span class="tech-tag">Laravel Fortify</span>
+        <span class="tech-tag">Laravel Wayfinder</span>
+        <span class="tech-tag">GitHub Actions</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contributions" class="section" style="padding-top: 0;">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="contrib.label">مساهماتي</p>
+      <h2 class="section-title" data-i18n="contrib.title">ما بنيته</h2>
+      <p class="section-lead" data-i18n="contrib.lead">ستة مخرجات — انقري للتفاصيل التقنية.</p>
+
+      <div class="contributions">
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="true">
+            <div class="contrib-left">
+              <span class="contrib-num">01</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c1.title">طبقة البيانات التجريبية</h4>
+                <p data-i18n="contrib.c1.sub">المهمة 16 · بيانات تجريبية واقعية</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li><strong>9 factories</strong> + <strong>11 seeders</strong> — realistic demo data for end-to-end development</li>
+                  <li>Unique DB constraint on volunteer hours + <strong>18+ Pest tests</strong></li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">Task 16</span>
+                  <span class="contrib-tag">database/README.md</span>
+                  <span class="contrib-tag">Pest</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">02</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c2.title">نظام الساعات التطوعية</h4>
+                <p data-i18n="contrib.c2.sub">المهمة 10 · PR #8</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li>REST API with Policy-backed validation — idempotent <code>updateOrCreate</code> per student/event</li>
+                  <li>Student &amp; supervisor dashboards + role-based login redirect · PR #8 · REQ-8/9/10</li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">ClubPolicy</span>
+                  <span class="contrib-tag">REQ-8</span>
+                  <span class="contrib-tag">REQ-9</span>
+                  <span class="contrib-tag">REQ-10</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">03</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c3.title">تقارير PDF للمشرف</h4>
+                <p data-i18n="contrib.c3.sub">المهمة 13 · DomPDF ثنائي اللغة</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li>3 bilingual PDF report types — DomPDF + Arabic glyph shaping</li>
+                  <li><code>ClubReportPdfTest</code> — 8 feature tests · REQ-22</li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">REQ-22</span>
+                  <span class="contrib-tag">DejaVu Sans</span>
+                  <span class="contrib-tag">ClubCapability::ViewReports</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">04</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c4.title">بنية الواجهة ثنائية اللغة</h4>
+                <p data-i18n="contrib.c4.sub">~95% من واجهة الإنتاج</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li>Cookie locale middleware + Inertia shared translations + Svelte <code>t()</code> helper</li>
+                  <li>21 AR/EN lang groups with parity tests — ~95% of production UI</li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">§ 3.2.5</span>
+                  <span class="contrib-tag">RTL</span>
+                  <span class="contrib-tag">LocaleTest</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">05</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c5.title">الكتالوج العام وتقديم الانضمام</h4>
+                <p data-i18n="contrib.c5.sub">صفحات استكشاف وطلبات انضمام</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li>Database-backed catalog pages — clubs, events, resources, join flow</li>
+                  <li>Feature tests: <code>PublicCatalogPagesTest</code>, <code>ClubJoinFormTest</code>, and related</li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">Eloquent</span>
+                  <span class="contrib-tag">Inertia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">06</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="contrib.c6.title">الإعدادات والتوجيه والتوثيق</h4>
+                <p data-i18n="contrib.c6.sub">الملف الشخصي والأمان والمخرجات الأكاديمية</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <ul>
+                  <li>Profile/security backends, role-scoped nav, GitHub Actions CI fixes</li>
+                  <li>SRS traceability + task READMEs on <code>norah/docs-preserve</code></li>
+                </ul>
+                <div class="contrib-tags">
+                  <span class="contrib-tag">Fortify</span>
+                  <span class="contrib-tag">NORAH_SRS_GITHUB.md</span>
+                  <span class="contrib-tag">TASK_*_README.md</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section test-section">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="tests.label">الجودة</p>
+
+      <div class="contributions tests-dropdown">
+        <div class="contrib-card">
+          <button class="contrib-trigger" type="button" aria-expanded="false">
+            <div class="contrib-left">
+              <span class="contrib-num">Pest</span>
+              <div class="contrib-title-wrap">
+                <h4 data-i18n="tests.title">اختبارات ألفتها</h4>
+                <p data-i18n="tests.sub">12 اختبار ميزات · 14+ وحدة · رواد</p>
+              </div>
+            </div>
+            <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="contrib-body">
+            <div class="contrib-body-inner">
+              <div class="contrib-content">
+                <p data-i18n-html="tests.summary"><strong>12 feature</strong> + <strong>14+ unit</strong> tests on Ruwad — volunteer hours, PDF reports, i18n parity, seeders/factories, and public catalog flows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact" class="section">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="impact.label">الأثر</p>
+      <h2 class="section-title" data-i18n="impact.title">متطلبات SRS المُنجزة</h2>
+      <p class="section-lead" data-i18n="impact.lead">ربط التنفيذ بالمتطلبات الرسمية — مع وضع صريح لما بقي بعد دمج الفريق.</p>
+
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h4 data-i18n="impact.r8t">REQ-8 · إدخال ساعات المشرف</h4>
+          <p data-i18n-html="impact.r8d">المشرفون يسجلون الساعات بعد الفعاليات السابقة. ما زال فعّالاً على <code>main</code>.</p>
+        </div>
+        <div class="impact-card">
+          <h4 data-i18n="impact.r9t">REQ-9 · تقارير الساعات</h4>
+          <p data-i18n-html="impact.r9d">مجاميع لوحة الطالب وإحصائيات المشرف عبر <code>ClubSupervisorReportService</code>.</p>
+        </div>
+        <div class="impact-card">
+          <h4 data-i18n="impact.r10t">REQ-10 · التحقق من الساعات</h4>
+          <p data-i18n-html="impact.r10d">حدود 0–100 وسجل واحد لكل طالب وفعالية عبر <code>updateOrCreate</code>.</p>
+        </div>
+        <div class="impact-card">
+          <h4 data-i18n="impact.r22t">REQ-22 · تقارير PDF للنادي</h4>
+          <p data-i18n="impact.r22d">ثلاثة أنواع تقارير ثنائية اللغة مع تشكيل عربي.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container fade-in">
+      <div class="contact-card">
+        <h2 data-i18n="contact.title">لنتواصل</h2>
+        <p data-i18n="contact.desc">تبحثون عن معيدة تجمع التميز الأكاديمي والتواصل الواضح والتوثيق بجودة إنتاجية؟</p>
+        <div class="contact-links">
+          <a href="mailto:your.email@uqu.edu.sa" class="btn btn-primary" data-i18n="contact.email">راسليني</a>
+          <a href="https://github.com/Alkabkabi1" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="contact.github">GitHub</a>
+          <a href="https://linkedin.com/in/" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footer.copy">© 2026 نورة محمد الكبكبي · معيدة طموحة · جامعة أم القرى</p>
+      <p class="footer-note" data-i18n="footer.note">هندسة البرمجيات · كلية الحاسبات · التدريب: مستشفى الملك عبد العزيز · التخرج: رواد</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
