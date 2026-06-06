@@ -4,6 +4,82 @@
   const STORAGE_THEME = 'portfolio-theme';
   const dict = window.PORTFOLIO_I18N || { en: {}, ar: {} };
 
+  const ACADEMIC_GRADE_DATA = [
+    { grade: 'A+', count: 25, colorVar: '--grade-aplus' },
+    { grade: 'A', count: 12, colorVar: '--grade-a' },
+    { grade: 'B+', count: 11, colorVar: '--grade-bplus' },
+    { grade: 'B', count: 3, colorVar: '--grade-b' },
+    { grade: 'C+', count: 0, colorVar: '--grade-cplus' },
+    { grade: 'C', count: 1, colorVar: '--grade-c' },
+    { grade: 'D+/D', count: 1, colorVar: '--grade-d' },
+    { grade: 'F', count: 0, colorVar: '--grade-f' },
+  ];
+
+  function gradeColor(colorVar) {
+    return getComputedStyle(root).getPropertyValue(colorVar).trim();
+  }
+
+  function renderGradeDistribution() {
+    const svg = document.querySelector('.grade-donut-svg');
+    const legend = document.querySelector('.grade-legend');
+    if (!svg || !legend) return;
+
+    const total = ACADEMIC_GRADE_DATA.reduce((sum, item) => sum + item.count, 0);
+    const size = 200;
+    const stroke = 34;
+    const radius = (size - stroke) / 2;
+    const cx = size / 2;
+    const cy = size / 2;
+    const circumference = 2 * Math.PI * radius;
+    let rotation = -90;
+
+    svg.replaceChildren();
+
+    ACADEMIC_GRADE_DATA.forEach((item) => {
+      if (!item.count) return;
+
+      const segment = (item.count / total) * circumference;
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', String(cx));
+      circle.setAttribute('cy', String(cy));
+      circle.setAttribute('r', String(radius));
+      circle.setAttribute('fill', 'none');
+      circle.setAttribute('stroke', gradeColor(item.colorVar));
+      circle.setAttribute('stroke-width', String(stroke));
+      circle.setAttribute('stroke-dasharray', `${segment} ${circumference - segment}`);
+      circle.setAttribute('stroke-linecap', 'butt');
+      circle.setAttribute('transform', `rotate(${rotation} ${cx} ${cy})`);
+      svg.appendChild(circle);
+      rotation += (item.count / total) * 360;
+    });
+
+    legend.replaceChildren();
+    ACADEMIC_GRADE_DATA.forEach((item) => {
+      const pct = total ? ((item.count / total) * 100).toFixed(1) : '0.0';
+      const li = document.createElement('li');
+      li.className = `grade-legend-item${item.count ? '' : ' is-zero'}`;
+
+      const swatch = document.createElement('span');
+      swatch.className = 'grade-legend-swatch';
+      swatch.style.background = gradeColor(item.colorVar);
+
+      const label = document.createElement('span');
+      label.className = 'grade-legend-label';
+      label.textContent = item.grade;
+
+      const pctEl = document.createElement('span');
+      pctEl.className = 'grade-legend-pct';
+      pctEl.textContent = `${pct}%`;
+
+      const countEl = document.createElement('span');
+      countEl.className = 'grade-legend-count';
+      countEl.textContent = `(${item.count})`;
+
+      li.append(swatch, label, pctEl, countEl);
+      legend.appendChild(li);
+    });
+  }
+
   function t(key, locale) {
     const loc = locale || root.getAttribute('lang') || 'ar';
     return dict[loc]?.[key] ?? dict.en?.[key] ?? key;
@@ -59,6 +135,7 @@
 
     const theme = root.getAttribute('data-theme') || 'light';
     updateThemeLabels(theme, loc);
+    renderGradeDistribution();
   }
 
   function updateThemeLabels(theme, locale) {
@@ -76,6 +153,7 @@
     root.setAttribute('data-theme', theme);
     localStorage.setItem(STORAGE_THEME, theme);
     updateThemeLabels(theme);
+    renderGradeDistribution();
   }
 
   const localeToggle = document.querySelector('.locale-toggle');

@@ -369,8 +369,157 @@ code {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+/* Grade distribution donut chart */
+
+:root,
+[data-theme="light"] {
+  --grade-aplus: #0a4529;
+  --grade-a: #0e5a38;
+  --grade-bplus: #1a7a52;
+  --grade-b: #3d9a72;
+  --grade-cplus: #8a6b1f;
+  --grade-c: #b8860b;
+  --grade-d: #c45c4a;
+  --grade-f: #8b3a3a;
+}
+
+[data-theme="dark"] {
+  --grade-aplus: #6ee0b0;
+  --grade-a: #4ecf9a;
+  --grade-bplus: #2db87a;
+  --grade-b: #1a8f5c;
+  --grade-cplus: #d4b86a;
+  --grade-c: #c9a227;
+  --grade-d: #e88a7a;
+  --grade-f: #d46a6a;
+}
+
+.grade-distribution-card {
+  margin-top: 1.75rem;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.grade-distribution-card .section-label {
+  margin-top: 0;
+}
+
+.grade-distribution-lead {
+  margin-bottom: 1.25rem;
+}
+
+.grade-distribution-layout {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.grade-donut-wrap {
+  position: relative;
+  width: min(220px, 100%);
+  aspect-ratio: 1;
+  flex-shrink: 0;
+}
+
+.grade-donut-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.grade-donut-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.grade-donut-total {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.grade-donut-center span {
+  margin-top: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+.grade-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 1.5rem;
+  flex: 1;
+  min-width: min(100%, 280px);
+}
+
+.grade-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.88rem;
+}
+
+.grade-legend-swatch {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.grade-legend-label {
+  font-weight: 700;
+  color: var(--text);
+  min-width: 2.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+}
+
+.grade-legend-pct {
+  font-weight: 700;
+  color: var(--accent-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.grade-legend-count {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.grade-legend-item.is-zero .grade-legend-pct,
+.grade-legend-item.is-zero .grade-legend-count {
+  opacity: 0.45;
+}
+
 @media (max-width: 640px) {
   .academic-strengths-compact {
+    grid-template-columns: 1fr;
+  }
+
+  .grade-distribution-layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .grade-donut-wrap {
+    margin-inline: auto;
+  }
+
+  .grade-legend {
     grid-template-columns: 1fr;
   }
 }
