@@ -1,0 +1,1698 @@
+ ALKABKABI, NORAH MOHAMMED A
+٦٧٦٣٠٠٤٤٤ ﺍﻟﺮﻗﻢ ﺍﻟﺠﺎﻣﻌﻲ : 
+ ٨١٫٣
+ ٣٤٫٣
+ ٦٤٫٣
+ﻧﻮﺭﻩ ﻣﺤﻤﺪ ﻋﻠﻲ ﺍﻟﻜﺒﻜﺒﻲ
+ﺍﻷﻭﻝ ٤٤٤١
+ ﺍﻟﺜﺎﻧﻲ ٤٤٤١
+ﺍﻟﺜﺎﻟﺚ ٤٤٤١
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+CS1101
+SE1101T
+MTH1105
+QR1101T
+ELCE1201T
+CS1211
+PHY1118
+MTH1211
+ICC1201T
+ELCE1202T
+CS1312
+DS1302
+MTH1501
+BA1901
+ELCE1203
+85
+97
+62
+98
+95
+80
+88
+95
+92
+95
+90
+82
+82
+99
+96
+  B+
+  A+
+  D
+  A+
+  A+
+  B
+  B+
+  A+
+  A
+  A+
+  A
+  B
+  B
+  A+
+  A+
+CS1101
+SE1101T
+MTH1105
+QR1101T
+ELCE1201T
+CS1211
+PHY1118
+MTH1211
+ICC1201T
+ELCE1202T
+CS1312
+DS1302
+MTH1501
+BA1901
+ELCE1203
+   Discrete Structures 1
+   Computational Thinking & Problem 
+Solving
+   Calculus 1
+   The Holy Qur'an (1)
+   English Language 1
+   Computer Programming 1
+   General Physics 1
+   Linear Algebra 1
+   Islamic Culture (1)
+   English Language 2
+   Computer Programming 2
+   Topics in Computing
+   Elementary Statistics and probability
+   Career Preparation Skills
+   English Language 3
+4
+3
+4
+2
+4
+3
+4
+4
+2
+4
+3
+3
+4
+2
+4
+4
+3
+4
+2
+4
+3
+4
+4
+2
+4
+3
+3
+4
+2
+4
+ 14.00
+ 12.00
+ 4.00
+ 8.00
+ 16.00
+ 9.00
+ 14.00
+ 16.00
+ 7.50
+ 16.00
+ 11.25
+ 9.00
+ 12.00
+ 8.00
+ 16.00
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
++ﺏ  
++ﺃ  
+ﺩ  
++ﺃ  
++ﺃ  
+ﺏ  
++ﺏ  
++ﺃ  
+ﺃ  
++ﺃ  
+ﺃ  
+ﺏ  
+ﺏ  
++ﺃ  
++ﺃ  
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+  ﻫﻴﺎﻛﻞ ﻣﺘﻘﻄﻌﺔ ١
+  ﺍﻟﺘﻔﻜﻴﺮ ﺍﻟﺤﺎﺳﻮﺑﻲ ﻭﺣﻞ ﺍﻟﻤﺸﻜﻼﺕ
+  ﺗﻔﺎﺿﻞ ﻭﺗﻜﺎﻣﻞ ١
+  ﺍﻟﻘﺮﺁﻥ ﺍﻟﻜﺮﻳﻢ )١(
+  ﺍﻟﻠﻐﺔ ﺍﻹﻧﺠﻠﻴﺰﻳﺔ ١
+  ﺑﺮﻣﺠﺔ ﺍﻟﺤﺎﺳﺐ ﺍﻵﻟﻲ ١
+  ﻓﻴﺰﻳﺎﺀ ﻋﺎﻣﺔ ١
+  ﺍﻟﺠﺒﺮ ﺍﻟﺨﻄﻲ ١
+  ﺍﻟﺜﻘﺎﻓﺔ ﺍﻹﺳﻼﻣﻴﺔ )١(
+  ﺍﻟﻠﻐﺔ ﺍﻹﻧﺠﻠﻴﺰﻳﺔ ٢
+  ﺑﺮﻣﺠﺔ ﺍﻟﺤﺎﺳﺐ ﺍﻵﻟﻲ ٢
+  ﻣﻮﺿﻮﻋﺎﺕ ﻓﻲ ﺍﻟﺤﻮﺳﺒﺔ
+  ﻣﺒﺎﺩﺉ ﺍﻻﺣﺼﺎﺀ ﻭﺍﻻﺣﺘﻤﺎﻻﺕ
+  ﻣﻬﺎﺭﺍﺕ ﺍﻟﺘﺄﻫﻴﻞ ﺍﻟﻤﻬﻨﻲ
+  ﺍﻟﻠﻐﺔ ﺍﻹﻧﺠﻠﻴﺰﻳﺔ ٣
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ ٨١٫٣
+ ٨٦٫٣
+ ٢٥٫٣
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+٤
+٣
+٤
+٢
+٤
+٣
+٤
+٤
+٢
+٤
+٣
+٣
+٤
+٢
+٤
+ ﺍﻟﺴﻨﺔ ﺃﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+ ﺍﻟﺴﻨﺔ ﺃﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+ ﺍﻟﺴﻨﺔ ﺃﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ ٠٠٫٤١
+ ٠٠٫٢١
+ ٠٠٫٤
+ ٠٠٫٨
+ ٠٠٫٦١
+ ٠٠٫٩
+ ٠٠٫٤١
+ ٠٠٫٦١
+ ٠٥٫٧
+ ٠٠٫٦١
+ ٥٢٫١١
+ ٠٠٫٩
+ ٠٠٫٢١
+ ٠٠٫٨
+ ٠٠٫٦١
+ﺟﻴﺪ ﺟﺪﺍ
+ﺟﻴﺪ ﺟﺪﺍ
+ﺟﻴﺪ ﺟﺪﺍ
+ - ﺟﻴﺪ ﺟﺪﺍ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ﺍﻻﺳﻢ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+٥٨
+٧٩
+٢٦
+٨٩
+٥٩
+٠٨
+٨٨
+٥٩
+٢٩
+٥٩
+٠٩
+٢٨
+٢٨
+٩٩
+٦٩
+ﻣﻨﺘﻈﻢ
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+٤
+٣
+٤
+٢
+٤
+٣
+٤
+٤
+٢
+٤
+٣
+٣
+٤
+٢
+٤
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+٧١
+٧١
+٦١
+٧١
+٧١
+٦١
+ ٠٠٫٤٥
+ ٠٥٫٢٦
+ ٥٢٫٦٥
+ﺍﻟﺤﺎﺳﺐ ﺍﻵﻟﻲ ﻭﻧﻈﻢ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ
+ﺍﻟﺤﺎﺳﺐ ﺍﻵﻟﻲ ﻭﻧﻈﻢ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ
+ﺍﻟﺤﺎﺳﺐ ﺍﻵﻟﻲ ﻭﻧﻈﻢ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+First Semester 2022/2022
+Second Semester 2022/2023
+Third Semester 2023/2023
+ 3.18
+ 3.43
+ 3.46
+ 3.18
+ 3.68
+ 3.52
+S.GPA:
+S.GPA:
+S.GPA:
+Ac. GPA :
+Ac. GPA :
+Ac. GPA :
+ First Year of Computing College
+ First Year of Computing College
+ First Year of Computing College
+Dept :
+Dept :
+Dept :
+ Very Good
+ Very Good
+ Very Good
+Status :
+Status :
+Status :
+Active
+Active
+Active
+Computers and Information Systems
+Computers and Information Systems
+Computers and Information Systems
+Faculty :
+Faculty :
+Faculty :
+ 54.00
+ 62.50
+ 56.25
+17
+17
+16
+17
+17
+16
+sum:
+sum:
+sum:
+Course Code
+Course Code
+Course Code
+Course Name
+Course Name
+Course Name
+Crd.
+Hours
+Crd.
+Hours
+Crd.
+Hours
+Pass
+Hourse
+Pass
+Hourse
+Pass
+Hourse
+Degree
+Degree
+Degree
+Grade
+Grade
+Grade
+Points
+Points
+Points
+Student ID: 444003676
+Name:
+Status: Active
+٠٢-٢١-٧٤٤١ﺍﻟﺘﺎﺭﻳـﺦ
+١ﺍﻟﺼﻔﺤﺔ :
+06-06-2026
+1
+Date :
+Page : //
+ﺍﻟﺪﺭﺟﺔ ﺍﻟﻌﻠﻤﻴﺔ
+ﺍﻟﻜﻠﻴﺔ : 
+ﺍﻟﺘﺨﺼﺺ : 
+ﻡ. ﺍﻟﺘﺮﺍﻛﻤﻲ : 
+ﺑﻜﺎﻟﻮﺭﻳﻮﺱﻧﻮﻉ ﺍﻟﺪﺭﺍﺳﺔ :ﺇﻧﺘﻈﺎﻡ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+GPA : 
+Degree :
+Faculty : 
+Major : 
+Bachelor Study type : Full Time
+Computing
+Software Engineering
+ ٦٦٫٣3.66
+ﺍﻟﺴﻨﺔ ﺍﻷﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺴﻨﺔ ﺍﻷﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺴﻨﺔ ﺍﻷﻭﻟﻰ ﻟﻜﻠﻴﺔ ﺍﻟﺤﺎﺳﺒﺎﺕ
+First Year of Computing College
+First Year of Computing College
+First Year of Computing College
+ﺍﻟﺘﺨﺼـﺺ
+ﺍﻟﺘﺨﺼـﺺ :
+ﺍﻟﺘﺨﺼـﺺ :
+Major:
+Major:
+Major:
+ - Very Good
+ - Excellent
+ - Excellent
+5 ALKABKABI, NORAH MOHAMMED A
+٦٧٦٣٠٠٤٤٤ ﺍﻟﺮﻗﻢ ﺍﻟﺠﺎﻣﻌﻲ : 
+ ٢٥٫٣
+ ٨٥٫٣
+ ١٦٫٣
+ﻧﻮﺭﻩ ﻣﺤﻤﺪ ﻋﻠﻲ ﺍﻟﻜﺒﻜﺒﻲ
+ﺍﻷﻭﻝ ٥٤٤١
+ ﺍﻟﺜﺎﻧﻲ ٥٤٤١
+ﺍﻟﺜﺎﻟﺚ ٥٤٤١
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+CS2214
+SE2102
+SE2103
+CEN2002
+ICC2202
+QR2102T
+CS2231
+CS2315
+SE2205
+SE2204T
+ARS1601T
+SE2306
+SE2307
+SE2308
+SE2309
+BA1902
+ICC3203
+86
+86
+90
+92
+95
+100
+95
+93
+96
+86
+100
+91
+100
+91
+88
+88
+100
+  B+
+  B+
+  A
+  A
+  A+
+  A+
+  A+
+  A
+  A+
+  B+
+  A+
+  A
+  A+
+  A
+  B+
+  B+
+  A+
+CS2214
+SE2102
+SE2103
+CEN2002
+ICC2202
+QR2102T
+CS2231
+CS2315
+SE2205
+SE2204T
+ARS1601T
+SE2306
+SE2307
+SE2308
+SE2309
+BA1902
+ICC3203
+   Data Structures
+   Foundations of Software Engineering
+   Software Enginneering Ethics
+   Hardware and Software Interface
+   Islamic Culture (2)
+   The Holy Qur'an (2)
+   Database Fundamentals
+   Algorithm Fundamentals
+   Distributed  programming paradigms
+   Requirements Engineering 1
+   Arabic Writing and Editing
+   Software Design & Construction 1
+   Requirements Engineering 2
+    Web Engineering
+   Project Management
+   Entrepreneurship and Innovation
+   Islamic Culture (3)
+3
+3
+2
+4
+2
+2
+3
+3
+4
+4
+2
+5
+3
+3
+3
+2
+2
+3
+3
+2
+4
+2
+2
+3
+3
+4
+4
+2
+5
+3
+3
+3
+2
+2
+ 10.50
+ 10.50
+ 7.50
+ 15.00
+ 8.00
+ 8.00
+ 12.00
+ 11.25
+ 16.00
+ 14.00
+ 8.00
+ 18.75
+ 12.00
+ 11.25
+ 10.50
+ 7.00
+ 8.00
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
++ﺏ  
++ﺏ  
+ﺃ  
+ﺃ  
++ﺃ  
++ﺃ  
++ﺃ  
+ﺃ  
++ﺃ  
++ﺏ  
++ﺃ  
+ﺃ  
++ﺃ  
+ﺃ  
++ﺏ  
++ﺏ  
++ﺃ  
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+  ﻫﻴﺎﻛﻞ ﺍﻟﺒﻴﺎﻧﺎﺕ
+  ﺃﺳﺲ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﺃﺧﻼﻗﻴﺎﺕ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﻭﺍﺟﻬﺔ ﺍﻟﻌﺘﺎﺩ ﻭﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﺍﻟﺜﻘﺎﻓﺔ ﺍﻹﺳﻼﻣﻴﺔ )٢(
+  ﺍﻟﻘﺮﺁﻥ ﺍﻟﻜﺮﻳﻢ )٢(
+  ﺍﺳﺎﺳﻴﺎﺕ ﻗﻮﺍﻋﺪ ﺍﻟﺒﻴﺎﻧﺎﺕ
+  ﺃﺳﺎﺳﻴﺎﺕ ﺍﻟﺨﻮﺍﺭﺯﻣﻴﺎﺕ
+  ﺍﻟﺒﺮﻣﺠﺔ ﺍﻟﻤﻮﺯﻋﺔ
+  ﻣﺘﻄﻠﺒﺎﺕ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ ١
+  ﺍﻟﻜﺘﺎﺑﺔ ﻭﺍﻟﺘﺤﺮﻳﺮ ﺍﻟﻌﺮﺑﻲ
+  ﺗﺼﻤﻴﻢ ﻭ ﺇﻧﺸﺎﺀ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ ١
+  ﻣﺘﻄﻠﺒﺎﺕ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ ٢
+  ﻫﻨﺪﺳﺔ ﺍﻟﻮﻳﺐ
+  ﺇﺩﺍﺭﺓ ﺍﻟﻤﺸﺎﺭﻳﻊ
+  ﺭﻳﺎﺩﺓ ﺍﻷﻋﻤﺎﻝ ﻭﺍﻻﺑﺘﻜﺎﺭ
+  ﺍﻟﺜﻘﺎﻓﺔ ﺍﻹﺳﻼﻣﻴﺔ )٣(
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ ٢٧٫٣
+ ٣٨٫٣
+ ٥٧٫٣
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+٣
+٣
+٢
+٤
+٢
+٢
+٣
+٣
+٤
+٤
+٢
+٥
+٣
+٣
+٣
+٢
+٢
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ ٠٥٫٠١
+ ٠٥٫٠١
+ ٠٥٫٧
+ ٠٠٫٥١
+ ٠٠٫٨
+ ٠٠٫٨
+ ٠٠٫٢١
+ ٥٢٫١١
+ ٠٠٫٦١
+ ٠٠٫٤١
+ ٠٠٫٨
+ ٥٧٫٨١
+ ٠٠٫٢١
+ ٥٢٫١١
+ ٠٥٫٠١
+ ٠٠٫٧
+ ٠٠٫٨
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ﺍﻻﺳﻢ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+٦٨
+٦٨
+٠٩
+٢٩
+٥٩
+٠٠١
+٥٩
+٣٩
+٦٩
+٦٨
+٠٠١
+١٩
+٠٠١
+١٩
+٨٨
+٨٨
+٠٠١
+ﻣﻨﺘﻈﻢ
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+٣
+٣
+٢
+٤
+٢
+٢
+٣
+٣
+٤
+٤
+٢
+٥
+٣
+٣
+٣
+٢
+٢
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+٦١
+٦١
+٨١
+٦١
+٦١
+٨١
+ ٠٥٫٩٥
+ ٥٢٫١٦
+ ٠٥٫٧٦
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+First Semester 2023/2023
+Second Semester 2023/2024
+Third Semester 2024/2024
+ 3.52
+ 3.58
+ 3.61
+ 3.72
+ 3.83
+ 3.75
+S.GPA:
+S.GPA:
+S.GPA:
+Ac. GPA :
+Ac. GPA :
+Ac. GPA :
+ Software Engineering
+ Software Engineering
+ Software Engineering
+Dept :
+Dept :
+Dept :
+ Excellent
+ Excellent
+ Excellent
+Status :
+Status :
+Status :
+Active
+Active
+Active
+Computing
+Computing
+Computing
+Faculty :
+Faculty :
+Faculty :
+ 59.50
+ 61.25
+ 67.50
+16
+16
+18
+16
+16
+18
+sum:
+sum:
+sum:
+Course Code
+Course Code
+Course Code
+Course Name
+Course Name
+Course Name
+Crd.
+Hours
+Crd.
+Hours
+Crd.
+Hours
+Pass
+Hourse
+Pass
+Hourse
+Pass
+Hourse
+Degree
+Degree
+Degree
+Grade
+Grade
+Grade
+Points
+Points
+Points
+Student ID: 444003676
+Name:
+Status: Active
+٠٢-٢١-٧٤٤١ﺍﻟﺘﺎﺭﻳـﺦ
+٢ﺍﻟﺼﻔﺤﺔ :
+06-06-2026
+2
+Date :
+Page : //
+ﺍﻟﺪﺭﺟﺔ ﺍﻟﻌﻠﻤﻴﺔ
+ﺍﻟﻜﻠﻴﺔ : 
+ﺍﻟﺘﺨﺼﺺ : 
+ﻡ. ﺍﻟﺘﺮﺍﻛﻤﻲ : 
+ﺑﻜﺎﻟﻮﺭﻳﻮﺱﻧﻮﻉ ﺍﻟﺪﺭﺍﺳﺔ :ﺇﻧﺘﻈﺎﻡ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+GPA : 
+Degree :
+Faculty : 
+Major : 
+Bachelor Study type : Full Time
+Computing
+Software Engineering
+ ٦٦٫٣3.66
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+Software Engineering
+Software Engineering
+Software Engineering
+ﺍﻟﺘﺨﺼـﺺ
+ﺍﻟﺘﺨﺼـﺺ :
+ﺍﻟﺘﺨﺼـﺺ :
+Major:
+Major:
+Major:
+ - Excellent
+ - Excellent
+ - Excellent
+5 ALKABKABI, NORAH MOHAMMED A
+٦٧٦٣٠٠٤٤٤ ﺍﻟﺮﻗﻢ ﺍﻟﺠﺎﻣﻌﻲ : 
+ ٢٦٫٣
+ ٣٦٫٣
+ ١٦٫٣
+ﻧﻮﺭﻩ ﻣﺤﻤﺪ ﻋﻠﻲ ﺍﻟﻜﺒﻜﺒﻲ
+ﺍﻟﺼﻴﻔﻲ ٦٤٤١/٥٤٤١
+ﺍﻷﻭﻝ ٦٤٤١
+ ﺍﻟﺜﺎﻧﻲ ٦٤٤١
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+QR3103
+SE3110
+SE3111
+SE3112
+SE3113
+SE3114
+CS4103
+SEC2101
+SE3215
+SE3216
+SE3217
+SPED1102T
+99
+85
+95
+87
+97
+85
+70
+90
+98
+91
+90
+98
+  A+
+  B+
+  A+
+  B+
+  A+
+  B+
+  C
+  A
+  A+
+  A
+  A
+  A+
+QR3103
+SE3110
+SE3111
+SE3112
+SE3113
+SE3114
+CS4103
+SEC2101
+SE3215
+SE3216
+SE3217
+SPED1102T
+   The Holy Qur'an (3)
+   Software Testing
+   Mobile Apps engineering
+   Models & Methods
+   Software Design & Construction 2
+   Functional programming
+   Scientific Computing
+   Introduction to Cybersecurity
+   Research Methods
+   Software Maintenance and Configuration
+   Frameworks and Tools
+   
+2
+3
+3
+3
+3
+3
+3
+3
+2
+4
+4
+2
+2
+3
+3
+3
+3
+3
+3
+3
+2
+4
+4
+2
+ 8.00
+ 10.50
+ 12.00
+ 10.50
+ 12.00
+ 10.50
+ 6.00
+ 11.25
+ 8.00
+ 15.00
+ 15.00
+ 8.00
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
++ﺃ  
++ﺏ  
++ﺃ  
++ﺏ  
++ﺃ  
++ﺏ  
+ﺝ  
+ﺃ  
++ﺃ  
+ﺃ  
+ﺃ  
++ﺃ  
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+  ﺍﻟﻘﺮﺍﻥ ﺍﻟﻜﺮﻳﻢ )٣(
+  ﺍﺧﺘﺒﺎﺭ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﻫﻨﺪﺳﺔ ﺗﻄﺒﻴﻘﺎﺕ ﺍﻟﺠﻮﺍﻝ
+  ﺍﻟﻨﻤﺎﺫﺝ ﻭﺍﻟﻄﺮﻕ
+  ﺗﺼﻤﻴﻢ ﻭ ﺇﻧﺸﺎﺀ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ ٢
+  ﺍﻟﺮﻳﺎﺿﻴﺎﺕ ﻟﻬﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﺍﻟﺤﻮﺳﺒﺔ ﺍﻟﻌﻠﻤﻴﺔ
+  ﻣﻘﺪﻣﺔ ﻓﻲ ﺍﻻﻣﻦ ﺍﻟﺴﻴﺒﺮﺍﻧﻲ
+  ﻃﺮﻕ ﺍﻟﺒﺤﺚ
+  ﺻﻴﺎﻧﺔ ﻭﺗﻬﻴﺌﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﺍﻷﻃﺮ ﻭﺍﻷﺩﻭﺍﺕ
+  ﺍﻟﺘﻨﻮﻉ ﻭﺍﻹﻧﺼﺎﻑ ﻭﺍﻟﺸﻤﻮﻟﻴﺔ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ ٠٠٫٤
+ ٠٧٫٣
+ ١٥٫٣
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+٢
+٣
+٣
+٣
+٣
+٣
+٣
+٣
+٢
+٤
+٤
+٢
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ ٠٠٫٨
+ ٠٥٫٠١
+ ٠٠٫٢١
+ ٠٥٫٠١
+ ٠٠٫٢١
+ ٠٥٫٠١
+ ٠٠٫٦
+ ٥٢٫١١
+ ٠٠٫٨
+ ٠٠٫٥١
+ ٠٠٫٥١
+ ٠٠٫٨
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ﺍﻻﺳﻢ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+٩٩
+٥٨
+٥٩
+٧٨
+٧٩
+٥٨
+٠٧
+٠٩
+٨٩
+١٩
+٠٩
+٨٩
+ﻣﻨﺘﻈﻢ
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+٢
+٣
+٣
+٣
+٣
+٣
+٣
+٣
+٢
+٤
+٤
+٢
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+٢
+٥١
+٨١
+٢
+٥١
+٨١
+ ٠٠٫٨
+ ٠٥٫٥٥
+ ٥٢٫٣٦
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+Summer Semester 2024/2024
+First Semester 2024/2024
+Second Semester 2024/2025
+ 3.62
+ 3.63
+ 3.61
+ 4.00
+ 3.70
+ 3.51
+S.GPA:
+S.GPA:
+S.GPA:
+Ac. GPA :
+Ac. GPA :
+Ac. GPA :
+ Software Engineering
+ Software Engineering
+ Software Engineering
+Dept :
+Dept :
+Dept :
+ Excellent
+ Excellent
+ Excellent
+Status :
+Status :
+Status :
+Active
+Active
+Active
+Computing
+Computing
+Computing
+Faculty :
+Faculty :
+Faculty :
+ 8.00
+ 55.50
+ 63.25
+2
+15
+18
+2
+15
+18
+sum:
+sum:
+sum:
+Course Code
+Course Code
+Course Code
+Course Name
+Course Name
+Course Name
+Crd.
+Hours
+Crd.
+Hours
+Crd.
+Hours
+Pass
+Hourse
+Pass
+Hourse
+Pass
+Hourse
+Degree
+Degree
+Degree
+Grade
+Grade
+Grade
+Points
+Points
+Points
+Student ID: 444003676
+Name:
+Status: Active
+٠٢-٢١-٧٤٤١ﺍﻟﺘﺎﺭﻳـﺦ
+٣ﺍﻟﺼﻔﺤﺔ :
+06-06-2026
+3
+Date :
+Page : //
+ﺍﻟﺪﺭﺟﺔ ﺍﻟﻌﻠﻤﻴﺔ
+ﺍﻟﻜﻠﻴﺔ : 
+ﺍﻟﺘﺨﺼﺺ : 
+ﻡ. ﺍﻟﺘﺮﺍﻛﻤﻲ : 
+ﺑﻜﺎﻟﻮﺭﻳﻮﺱﻧﻮﻉ ﺍﻟﺪﺭﺍﺳﺔ :ﺇﻧﺘﻈﺎﻡ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+GPA : 
+Degree :
+Faculty : 
+Major : 
+Bachelor Study type : Full Time
+Computing
+Software Engineering
+ ٦٦٫٣3.66
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+Software Engineering
+Software Engineering
+Software Engineering
+ﺍﻟﺘﺨﺼـﺺ
+ﺍﻟﺘﺨﺼـﺺ :
+ﺍﻟﺘﺨﺼـﺺ :
+Major:
+Major:
+Major:
+ - Excellent
+ - Excellent
+ - Excellent
+5 ALKABKABI, NORAH MOHAMMED A
+٦٧٦٣٠٠٤٤٤ ﺍﻟﺮﻗﻢ ﺍﻟﺠﺎﻣﻌﻲ : 
+ ٤٦٫٣
+ ٥٦٫٣
+ ٦٦٫٣
+ﻧﻮﺭﻩ ﻣﺤﻤﺪ ﻋﻠﻲ ﺍﻟﻜﺒﻜﺒﻲ
+ﺍﻟﺜﺎﻟﺚ ٧٤٤١/٦٤٤١
+ﺍﻟﺼﻴﻔﻲ ٧٤٤١/٦٤٤١
+ﺍﻷﻭﻝ ٧٤٤١
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+ﺍﻟﻔﺼﻞ
+SE3318
+SE3320
+SE3321
+SE4431
+DS3002
+TOR1101
+ICC4204
+SE4228
+SE4502
+95
+99
+86
+90
+90
+95
+100
+98
+100
+  A+
+  A+
+  B+
+  A
+  A
+  A+
+  A+
+  A+
+  A+
+SE3318
+SE3320
+SE3321
+SE4431
+DS3002
+TOR1101
+ICC4204
+SE4228
+SE4502
+   Software Quality Attributes
+   Group Project 1
+   Operation Research
+   Code Generation
+   Data Engineering
+   Introduction to Hospitality
+   Islamic Culture (4)
+   Cooperative Training
+   Cooperative Training 
+3
+2
+4
+3
+3
+2
+2
+4
+6
+3
+2
+4
+3
+3
+2
+2
+4
+6
+ 12.00
+ 8.00
+ 14.00
+ 11.25
+ 11.25
+ 8.00
+ 8.00
+ 16.00
+ 24.00
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
++ﺃ  
++ﺃ  
++ﺏ  
+ﺃ  
+ﺃ  
++ﺃ  
++ﺃ  
++ﺃ  
++ﺃ  
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+ﺍﻟﺘﻘﺪﻳﺮ
+  ﺟﻮﺩﺓ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﻣﺸﺮﻭﻉ ﺟﻤﺎﻋﻲ ١
+  ﺑﺤﻮﺙ ﻋﻤﻠﻴﺎﺕ
+  ﺗﻮﻟﻴﺪ ﺗﻠﻘﺎﺋﻲ ﻟﻤﻠﻔﺎﺕ ﻣﺼﺪﺭﻳﺔ
+  ﻫﻨﺪﺳﺔ ﺍﻟﺒﻴﺎﻧﺎﺕ
+  ﻣﻘﺪﻣﺔ ﻓﻲ ﺍﻟﻀﻴﺎﻓﺔ
+  ﺍﻟﺜﻘﺎﻓﺔ ﺍﻹﺳﻼﻣﻴﺔ )٤(
+  ﺍﻟﺘﺪﺭﻳﺐ ﺗﻌﺎﻭﻧﻲ
+  ﺍﻟﺘﺪﺭﻳﺐ ﺗﻌﺎﻭﻧﻲ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ ٢٨٫٣
+ ٠٠٫٤
+ ٠٠٫٤
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+٣
+٢
+٤
+٣
+٣
+٢
+٢
+٤
+٦
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻘﺴﻢ :
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ﺍﻟﻨﻘﺎﻁ
+ ٠٠٫٢١
+ ٠٠٫٨
+ ٠٠٫٤١
+ ٥٢٫١١
+ ٥٢٫١١
+ ٠٠٫٨
+ ٠٠٫٨
+ ٠٠٫٦١
+ ٠٠٫٤٢
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ - ﻣﻤﺘﺎﺯ
+ﺍﻻﺳﻢ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+ﺍﻟﺪﺭﺟﺔ
+٥٩
+٩٩
+٦٨
+٠٩
+٠٩
+٥٩
+٠٠١
+٨٩
+٠٠١
+ﻣﻨﺘﻈﻢ
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺤﺎﻟﺔ :
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﻣﻨﺘﻈﻢ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+٣
+٢
+٤
+٣
+٣
+٢
+٢
+٤
+٦
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+ﺍﻟﻤﺠﻤﻮﻉ:
+٩١
+٤
+٦
+٩١
+٤
+٦
+ ٠٥٫٢٧
+ ٠٠٫٦١
+ ٠٠٫٤٢
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+ﺍﻟﻜﻠﻴﺔ :
+Third Semester 2025/2025
+Summer Semester 2025/2025
+First Semester 2025/2026
+ 3.64
+ 3.65
+ 3.66
+ 3.82
+ 4.00
+ 4.00
+S.GPA:
+S.GPA:
+S.GPA:
+Ac. GPA :
+Ac. GPA :
+Ac. GPA :
+ Software Engineering
+ Software Engineering
+ Software Engineering
+Dept :
+Dept :
+Dept :
+ Excellent
+ Excellent
+ Excellent
+Status :
+Status :
+Status :
+Active
+Active
+Active
+Computing
+Computing
+Computing
+Faculty :
+Faculty :
+Faculty :
+ 72.50
+ 16.00
+ 24.00
+19
+4
+6
+19
+4
+6
+sum:
+sum:
+sum:
+Course Code
+Course Code
+Course Code
+Course Name
+Course Name
+Course Name
+Crd.
+Hours
+Crd.
+Hours
+Crd.
+Hours
+Pass
+Hourse
+Pass
+Hourse
+Pass
+Hourse
+Degree
+Degree
+Degree
+Grade
+Grade
+Grade
+Points
+Points
+Points
+Student ID: 444003676
+Name:
+Status: Active
+٠٢-٢١-٧٤٤١ﺍﻟﺘﺎﺭﻳـﺦ
+٤ﺍﻟﺼﻔﺤﺔ :
+06-06-2026
+4
+Date :
+Page : //
+ﺍﻟﺪﺭﺟﺔ ﺍﻟﻌﻠﻤﻴﺔ
+ﺍﻟﻜﻠﻴﺔ : 
+ﺍﻟﺘﺨﺼﺺ : 
+ﻡ. ﺍﻟﺘﺮﺍﻛﻤﻲ : 
+ﺑﻜﺎﻟﻮﺭﻳﻮﺱﻧﻮﻉ ﺍﻟﺪﺭﺍﺳﺔ :ﺇﻧﺘﻈﺎﻡ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+GPA : 
+Degree :
+Faculty : 
+Major : 
+Bachelor Study type : Full Time
+Computing
+Software Engineering
+ ٦٦٫٣3.66
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+Software Engineering
+Software Engineering
+Software Engineering
+ﺍﻟﺘﺨﺼـﺺ
+ﺍﻟﺘﺨﺼـﺺ :
+ﺍﻟﺘﺨﺼـﺺ :
+Major:
+Major:
+Major:
+ - Excellent
+ - Excellent
+ - Excellent
+5 ALKABKABI, NORAH MOHAMMED A
+٦٧٦٣٠٠٤٤٤ ﺍﻟﺮﻗﻢ ﺍﻟﺠﺎﻣﻌﻲ : 
+ﻧﻮﺭﻩ ﻣﺤﻤﺪ ﻋﻠﻲ ﺍﻟﻜﺒﻜﺒﻲ
+ﺍﻟﻔﺼﻞ ﺍﻟﺜﺎﻧﻲ ٧٤٤١ 
+AI3011
+CS2016
+SE2202
+SE3502
+SE4206
+SE4705
+QR3104
+  
+  
+  
+  
+  
+  
+  
+AI3011
+CS2016
+SE2202
+SE3502
+SE4206
+SE4705
+QR3104
+   Artificial Intelligence and Machine 
+Learning
+   Operating Systems
+   Software Engineering Professional 
+Practice and Code Ethics
+   Graduation Project (2)
+   Software Development and Operations
+   Selected Topics in Software Engineering
+   Seal of the Holy Quran
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+ 0.00
+ 0.00
+ 0.00
+ 0.00
+ 0.00
+ 0.00
+ 0.00
+ﺭﻣﺰ ﺍﻟﻤﻘﺮﺭ
+  
+  
+  
+  
+  
+  
+  
+ﺍﻟﺘﻘﺪﻳﺮ
+  ﺍﻟﺬﻛﺎﺀ ﺍﻻﺻﻄﻨﺎﻋﻲ ﻭﺍﻟﺘﻌﻠﻢ ﺍﻵﻟﻲ
+  ﻧﻈﻢ ﺍﻟﺘﺸﻐﻴﻞ
+  ﺍﻟﻤﻤﺎﺭﺳﺔ ﺍﻟﻤﻬﻨﻴﺔ ﻭﺃﺧﻼﻗﻴﺎﺕ ﻫﻨﺪﺳﺔ 
+ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﻣﺸﺮﻭﻉ ﺗﺨﺮﺝ )٢(
+   ﺗﻄﻮﻳﺮ ﻭﺗﺸﻐﻴﻞ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﻣﻮﺿﻮﻋﺎﺕ ﻣﺨﺘﺎﺭﺓ ﻓﻲ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+  ﺧﺘﻢ ﺍﻟﻘﺮﺁﻥ ﺍﻟﻜﺮﻳﻢ
+ﺍﺳﻢ ﺍﻟﻤﻘﺮﺭ
+ﻡ.ﺍﻟﻔﺼﻠﻲ :
+ﻡ.ﺍﻟﺘﺮﺍﻛﻤﻲ :
+ﺱ
+ ﻣﻌﺘﻤﺪﺓ
+٠
+٠
+٠
+٠
+٠
+٠
+٠
+ ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕﺍﻟﻘﺴﻢ :
+ﺍﻟﻨﻘﺎﻁ
+ ٠٠٫٠
+ ٠٠٫٠
+ ٠٠٫٠
+ ٠٠٫٠
+ ٠٠٫٠
+ ٠٠٫٠
+ ٠٠٫٠
+ﺍﻻﺳﻢ :
+ﺍﻟﺤﺎﻟﺔ :
+ﺍﻟﺪﺭﺟﺔ
+ﻣﻨﺘﻈﻢ
+٥٢٫٠٠٦ﺍﻟﻨﻘﺎﻁ : ٦٦٫٣ﺍﻟﻤﻌﺪﻝ ﺍﻟﺘﺮﺍﻛﻤﻲ :٤٦١ﺍﻟﺴﺎﻋﺎﺕ ﺍﻟﻤﻜﺘﺴﺒﺔ:٤٦١ﺍﻟﺴﺎﻋﺎﺕ ﺍﻟﻤﻌﺘﻤﺪﺓ :
+ﺍﻟﺤﺎﻟﺔ :ﻣﻨﺘﻈﻢ
+ﺱ
+ﻣﻜﺘﺴﺒﺔ
+٠
+٠
+٠
+٠
+٠
+٠
+٠
+ﺍﻟﺤﺎﺳﺒﺎﺕﺍﻟﻜﻠﻴﺔ :
+Second Semester 2026/2026
+S.GPA:
+Ac. GPA :
+ Software EngineeringDept :
+Status : Active
+ComputingFaculty :
+sum:
+Course Code Course Name
+Crd.
+Hours
+Pass
+Hourse Degree Grade Points
+Crd Hrs: 164 Passed Hrs: 164 Accum GPA:  3.66 Points: 600.25
+Student ID: 444003676
+Name:
+Status: Active
+٠٢-٢١-٧٤٤١ﺍﻟﺘﺎﺭﻳـﺦ
+٥ﺍﻟﺼﻔﺤﺔ :
+06-06-2026
+5
+Date :
+Page : /٥/ 5
+ﺍﻟﺪﺭﺟﺔ ﺍﻟﻌﻠﻤﻴﺔ
+ﺍﻟﻜﻠﻴﺔ : 
+ﺍﻟﺘﺨﺼﺺ : 
+ﻡ. ﺍﻟﺘﺮﺍﻛﻤﻲ : 
+ﺑﻜﺎﻟﻮﺭﻳﻮﺱﻧﻮﻉ ﺍﻟﺪﺭﺍﺳﺔ :ﺇﻧﺘﻈﺎﻡ
+ﺍﻟﺤﺎﺳﺒﺎﺕ
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕ
+GPA : 
+Degree :
+Faculty : 
+Major : 
+Bachelor Study type : Full Time
+Computing
+Software Engineering
+ ٦٦٫٣3.66
+ﻫﻨﺪﺳﺔ ﺍﻟﺒﺮﻣﺠﻴﺎﺕSoftware Engineering ﺍﻟﺘﺨﺼـﺺMajor:
+Dean of Admission and Registration
+Dr. Khalid T. Althagafy
+ﻋﻤﻴﺪ ﺍﻟﻘﺒﻮﻝ ﻭﺍﻟﺘﺴﺠﻴﻞ
+ﺩ. ﺧﺎﻟﺪ ﺑﻦ ﺛﺎﻣﺮ ﺍﻟﺜﻘﻔﻲ
