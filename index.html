@@ -27,11 +27,10 @@
     <div class="container nav-inner">
       <a href="#" class="nav-logo">Norah<span>.</span></a>
       <ul class="nav-links">
-        <li><a href="#about" data-i18n="nav.about">نبذة عني</a></li>
         <li><a href="#highlights" data-i18n="nav.highlights">لمحة عامة</a></li>
+        <li><a href="#details" data-i18n="nav.details">التفاصيل</a></li>
         <li><a href="#academics" data-i18n="nav.academics">السجل الأكاديمي</a></li>
-        <li><a href="#teaching" data-i18n="nav.teaching">تبسيط المفاهيم</a></li>
-        <li><a href="#strengths" data-i18n="nav.strengths">منهجية العمل</a></li>
+        <li><a href="#course-projects" data-i18n="nav.courseproj">مشاريع المقررات</a></li>
         <li><a href="#training" data-i18n="nav.training">التدريب</a></li>
         <li><a href="#project" data-i18n="nav.project">رواد</a></li>
         <li><a href="#contact" data-i18n="nav.contact">التواصل</a></li>
@@ -55,64 +54,50 @@
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="container hero-grid">
-      <div>
+  <header id="highlights" class="hero hero-memorable">
+    <div class="container hero-memorable-inner">
+      <div class="hero-intro">
         <div class="hero-eyebrow">
           <span class="dot" aria-hidden="true"></span>
-          <span data-i18n="hero.eyebrow">خريجة هندسة برمجيات · جامعة أم القرى · معدل 3.66 من 4.00</span>
+          <span data-i18n="hero.eyebrow">جامعة أم القرى · هندسة البرمجيات · معدل 3.66</span>
         </div>
-        <h1 data-i18n-html="hero.title">نورة محمد الكبكبي</h1>
-        <p class="hero-tagline" data-i18n="hero.tagline">
-          خريجة هندسة برمجيات من جامعة أم القرى، بمعدل تراكمي 3.66 من 4.00، واهتمام خاص بمجالات هندسة البرمجيات، جودة البرمجيات، والتوثيق التقني. أسعى إلى الإسهام في التعليم الجامعي والبحث العلمي من خلال الجمع بين التميز العلمي والخبرة العملية والقدرة على تبسيط المفاهيم التقنية.
-        </p>
-        <div class="hero-actions">
-          <a href="#highlights" class="btn btn-primary" data-i18n="hero.btn.highlights">لمحة عامة</a>
-          <a href="#academics" class="btn btn-ghost" data-i18n="hero.btn.academics">السجل الأكاديمي</a>
-        </div>
+        <h1 data-i18n="hero.title">نورة محمد الكبكبي</h1>
+        <p class="hero-hook" data-i18n-html="hero.hook">خريجة هندسة برمجيات ب<strong>معدل ممتاز</strong>، و<strong>تدريب تعاوني</strong> في مستشفى حكومي بأنظمة منشورة، و<strong>مشروع تخرج</strong> موثّق يعمل على الإنترنت — ثلاثة أدلة، شاشة واحدة.</p>
       </div>
-      <div class="hero-stats" data-i18n-aria="hero.stats.aria" aria-label="أبرز الإنجازات">
-        <div class="stat-card">
-          <span class="stat-value">3.66</span>
-          <span class="stat-label" data-i18n="hero.stat1">معدل تراكمي · ممتاز</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">164</span>
-          <span class="stat-label" data-i18n="hero.stat2">ساعة معتمدة مكتملة</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">67</span>
-          <span class="stat-label" data-i18n="hero.stat3">67 اختباراً آلياً · التدريب التعاوني</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-value">18+</span>
-          <span class="stat-label" data-i18n="hero.stat4">اختبار Pest · مشروع رواد</span>
-        </div>
+
+      <div class="hero-pillars" data-i18n-aria="hero.pillars.aria" aria-label="أبرز ما أريد أن تتذكروه">
+        <a href="#academics" class="hero-pillar">
+          <span class="hero-pillar-metric">3.66</span>
+          <h2 data-i18n="highlights.academics.t">المعدل التراكمي</h2>
+          <p data-i18n="hero.pillar.academics">164 ساعة مكتملة · درجات A+ في مقررات صعبة · تقييم ممتاز</p>
+        </a>
+        <a href="#training" class="hero-pillar hero-pillar-featured">
+          <span class="hero-pillar-metric">67</span>
+          <h2 data-i18n="highlights.training.t">التدريب التعاوني</h2>
+          <p data-i18n="hero.pillar.training">مستشفى الملك عبد العزيز · نظامان منشوران · شهادة تكريم</p>
+        </a>
+        <a href="#project" class="hero-pillar">
+          <span class="hero-pillar-metric">SRS</span>
+          <h2 data-i18n="highlights.ruwad.t">مشروع التخرج</h2>
+          <p data-i18n="hero.pillar.ruwad">رواد · 18+ اختبار Pest · منصة حية على ruwad.space</p>
+        </a>
+      </div>
+
+      <div class="hero-foot">
+        <p class="hero-chips" data-i18n-html="hero.chips">اختبارات برمجية · توثيق تقني · تبسيط المفاهيم للزملاء</p>
+        <a href="#details" class="hero-scroll-cue" data-i18n-aria="hero.scroll.aria" aria-label="انتقلي إلى التفاصيل">
+          <span data-i18n="hero.scroll">التفاصيل أدناه — مرّري للقراءة</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </a>
       </div>
     </div>
   </header>
 
-  <section id="highlights" class="section highlights-section">
+  <section id="details" class="details-gateway" aria-labelledby="details-heading">
     <div class="container fade-in">
-      <p class="section-label" data-i18n="highlights.label">لمحة عامة</p>
-      <h2 class="section-title" data-i18n="highlights.title">أبرز المؤهلات</h2>
-      <div class="highlights-summary-grid">
-        <a href="#academics" class="summary-card">
-          <p class="summary-metric">3.66</p>
-          <h3 data-i18n="highlights.academics.t">المعدل التراكمي</h3>
-          <p data-i18n="highlights.academics.d">معدل تراكمي 3.66 من 4.00</p>
-        </a>
-        <a href="#training" class="summary-card">
-          <p class="summary-metric">4+</p>
-          <h3 data-i18n="highlights.training.t">التدريب التعاوني</h3>
-          <p data-i18n="highlights.training.d">تدريب تعاوني في مستشفى الملك عبد العزيز بمكة المكرمة</p>
-        </a>
-        <a href="#project" class="summary-card">
-          <p class="summary-metric">SRS</p>
-          <h3 data-i18n="highlights.ruwad.t">مشروع التخرج</h3>
-          <p data-i18n="highlights.ruwad.d">مشروع تخرج موثّق وفق معايير هندسة البرمجيات وأفضل الممارسات المهنية</p>
-        </a>
-      </div>
+      <p class="section-label" data-i18n="details.label">من هنا التفاصيل</p>
+      <h2 id="details-heading" class="section-title details-gateway-title" data-i18n="details.title">كل ما تحتاج معرفته — بالترتيب</h2>
+      <p class="section-lead details-gateway-lead" data-i18n="details.lead">ما سبق كان الملخص. ما يلي هو السجل الكامل: نبذة عني، الأكاديميات، مشاريع المقررات، التدريب، ورواد — خذي وقتك في القراءة.</p>
     </div>
   </section>
 
@@ -195,7 +180,7 @@
         </div>
       </article>
 
-      <p class="section-label difficult-courses-label" data-i18n="academics.courses.label">مقررات صعبة — درجات A وA+</p>
+      <p class="section-label difficult-courses-label" data-i18n="academics.courses.label">مقررات صعبة</p>
       <p class="section-lead" data-i18n="academics.courses.lead">درجات من السجل الرسمي — مقررات يُعرف بصعوبتها في تخصص هندسة البرمجيات.</p>
 
       <div class="difficult-courses-grid">
@@ -247,6 +232,128 @@
         <p class="section-label" data-i18n="teaching.label">تبسيط المفاهيم التقنية</p>
         <p class="section-lead" style="margin-bottom: 0;" data-i18n="teaching.lead">أؤمن بأن الفهم الحقيقي يظهر في القدرة على الشرح والتبسيط. لذلك أحرص في جلسات المراجعة الجماعية والنقاشات الأكاديمية على تقديم المفاهيم التقنية بأسلوب منظم يربط بين الجانب النظري والتطبيق العملي.</p>
       </article>
+    </div>
+  </section>
+
+  <section id="course-projects" class="section" style="padding-top: 0;">
+    <div class="container fade-in">
+      <p class="section-label" data-i18n="courseproj.label">مشاريع المقررات</p>
+      <h2 class="section-title" data-i18n="courseproj.title">أعمال جماعية من مسيرتي الأكاديمية</h2>
+      <p class="section-lead" data-i18n="courseproj.lead">مختارات من مشاريع ومقررات هندسة البرمجيات في جامعة أم القرى — عمل جماعي مع زملاء الفريق. الملخصات هنا تعكس جوهر ما أنجزناه معاً، دون تفصيل أدوار كل عضو. سأضيف المزيد لاحقاً.</p>
+
+      <div class="course-projects-grid">
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p1.title">موقع Twine — تحليل الألوان</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p1.course">هندسة الويب</p>
+          <p class="course-project-desc" data-i18n="courseproj.p1.desc">موقع تسويقي لصالون يقدّم خدمات تحليل الألوان، مع صفحات للخدمات واختبار لاكتشاف لوحة الألوان المناسبة.</p>
+          <a href="assets/course-projects/twine-web-engineering.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p2.title">تطبيق مقاصف الجامعة</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p2.course">تطوير تطبيقات الجوال · Flutter</p>
+          <p class="course-project-desc" data-i18n="courseproj.p2.desc">تصميم تطبيق جوال لطلب الوجبات من مقاصف أم القرى مسبقاً وتقليل وقت الانتظار بين المحاضرات.</p>
+          <a href="assets/course-projects/flutter-cafeteria.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p3.title">نظام المنطقة الخضراء</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p3.course">تصميم وإنشاء البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p3.desc">توثيق حالات استخدام لنظام مراقبة المنطقة الخضراء: التصاريح، الغرامات، ونقاط المراقبة.</p>
+          <a href="assets/course-projects/software-design-green-zone.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p4.title">قاعدة بيانات المكتبة</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p4.course">أساسيات قواعد البيانات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p4.desc">نمذجة قاعدة بيانات لمكتبة متعددة الفروع: الكتب، الفروع، الموظفون، العملاء، والمشتريات — بترميز Chen وUML.</p>
+          <a href="assets/course-projects/database-library.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p5.title">حلّال البرمجة الخطية</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p5.course">بحوث العمليات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p5.desc">برنامج Python يقرأ دالة الهدف والقيود ويحلّ مسائل البرمجة الخطية باستخدام حذف Gaussian.</p>
+          <a href="assets/course-projects/operational-research-lp-solver.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p6.title">تحليل مبيعات الأفوكادو</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p6.course">تحليل البيانات وتعلّم الآلة</p>
+          <p class="course-project-desc" data-i18n="courseproj.p6.desc">خط أنابيب تحليل بيانات على مجموعة مبيعات الأفوكادو — تنظيف واستكشاف بـ Pandas وNumPy وتعلّم آلي بـ Scikit-learn.</p>
+          <a href="assets/course-projects/data-analysis-avocado.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p7.title">مختبر اختبار البرمجيات — Java</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p7.course">اختبار البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p7.desc">كتابة حالات اختبار يدوية لكود Java: التحقق من التسجيل ببيانات ناقصة وإعادة تعيين كلمة المرور.</p>
+          <a href="assets/course-projects/software-testing-lab.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p8.title">قابلية تعديل البرمجيات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p8.course">جودة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p8.desc">عرض جماعي عن مفهوم Modifiability — لماذا يجب أن تكون الأنظمة قابلة للتغيير بأمان وسهولة مع مرور الوقت.</p>
+          <a href="assets/course-projects/software-modifiability.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p9.title">وظائف البرمجيات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p9.course">جودة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p9.desc">عرض جماعي يشرح مفهوم Software Functionality وأنواعه وأهميته في تلبية احتياجات المستخدم.</p>
+          <a href="assets/course-projects/software-functionality.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p10.title">تحليل واجهة المستخدم والاستخدام</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p10.course">متطلبات البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p10.desc">تقرير عن تقنيات تحليل الواجهات: اختبار قابلية الاستخدام، التقييم الإرشادي، المقابلات، وتحليل المهام.</p>
+          <a href="assets/course-projects/ui-analysis.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p11.title">هجمات Clickjacking</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p11.course">أمن تطبيقات الويب</p>
+          <p class="course-project-desc" data-i18n="courseproj.p11.desc">تقرير بحثي عن هجمات إعادة توجيه النقرات: آلية العمل، أمثلة واقعية، والإجراءات الوقائية للمطورين والمستخدمين.</p>
+          <a href="assets/course-projects/clickjacking-security.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+      </div>
+
+      <p class="course-projects-note" data-i18n="courseproj.note">المزيد من مشاريع المقررات قيد الإضافة — هذه القائمة ستُحدَّث عند رفع وثائق جديدة.</p>
     </div>
   </section>
 
@@ -574,16 +681,11 @@
         <span class="tech-tag">Laravel Wayfinder</span>
         <span class="tech-tag">GitHub Actions</span>
       </div>
-    </div>
-  </section>
 
-  <section id="contributions" class="section" style="padding-top: 0;">
-    <div class="container fade-in">
-      <p class="section-label" data-i18n="contrib.label">مساهماتي في المشروع</p>
-      <h2 class="section-title" data-i18n="contrib.title">مساهماتي في المشروع</h2>
-      <p class="section-lead" data-i18n="contrib.lead">شملت مساهماتي تطوير أجزاء متعددة من النظام، من بينها:</p>
+      <div class="ruwad-details">
+        <p class="ruwad-details-lead" data-i18n="contrib.lead">شملت مساهماتي تطوير أجزاء متعددة من النظام، من بينها:</p>
 
-      <div class="contributions">
+        <div id="contributions" class="contributions">
 
         <div class="contrib-card">
           <button class="contrib-trigger" type="button" aria-expanded="true">
@@ -753,22 +855,13 @@
           </div>
         </div>
 
-      </div>
-    </div>
-  </section>
-
-  <section class="section test-section">
-    <div class="container fade-in">
-      <p class="section-label" data-i18n="tests.label">الجودة والاختبارات</p>
-
-      <div class="contributions tests-dropdown">
         <div class="contrib-card">
           <button class="contrib-trigger" type="button" aria-expanded="false">
             <div class="contrib-left">
               <span class="contrib-num">Pest</span>
               <div class="contrib-title-wrap">
-                <h4 data-i18n="tests.title">الجودة والاختبارات</h4>
-                <p data-i18n="tests.sub">اختبارات آلية ومستمرة · رواد</p>
+                <h4 data-i18n="tests.sub">اختبارات آلية ومستمرة</h4>
+                <p data-i18n="tests.feature">اختبارات الميزات والوحدات · رواد</p>
               </div>
             </div>
             <svg class="contrib-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
@@ -781,32 +874,26 @@
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-  </section>
 
-  <section id="impact" class="section">
-    <div class="container fade-in">
-      <p class="section-label" data-i18n="impact.label">الأثر</p>
-      <h2 class="section-title" data-i18n="impact.title">متطلبات SRS المُنجزة</h2>
-      <p class="section-lead" data-i18n="impact.lead">ربط التنفيذ بالمتطلبات الرسمية — مع وضع صريح لما بقي بعد دمج الفريق.</p>
-
-      <div class="impact-grid">
-        <div class="impact-card">
-          <h4 data-i18n="impact.r8t">REQ-8 · إدخال ساعات المشرف</h4>
-          <p data-i18n-html="impact.r8d">المشرفون يسجلون الساعات بعد الفعاليات السابقة. ما زال فعّالاً على <code>main</code>.</p>
-        </div>
-        <div class="impact-card">
-          <h4 data-i18n="impact.r9t">REQ-9 · تقارير الساعات</h4>
-          <p data-i18n-html="impact.r9d">مجاميع لوحة الطالب وإحصائيات المشرف عبر <code>ClubSupervisorReportService</code>.</p>
-        </div>
-        <div class="impact-card">
-          <h4 data-i18n="impact.r10t">REQ-10 · التحقق من الساعات</h4>
-          <p data-i18n-html="impact.r10d">حدود 0–100 وسجل واحد لكل طالب وفعالية عبر <code>updateOrCreate</code>.</p>
-        </div>
-        <div class="impact-card">
-          <h4 data-i18n="impact.r22t">REQ-22 · تقارير PDF للنادي</h4>
-          <p data-i18n="impact.r22d">ثلاثة أنواع تقارير ثنائية اللغة مع تشكيل عربي.</p>
+        <div id="impact" class="impact-grid">
+          <div class="impact-card">
+            <h4 data-i18n="impact.r8t">REQ-8 · إدخال ساعات المشرف</h4>
+            <p data-i18n-html="impact.r8d">المشرفون يسجلون الساعات بعد الفعاليات السابقة. ما زال فعّالاً على <code>main</code>.</p>
+          </div>
+          <div class="impact-card">
+            <h4 data-i18n="impact.r9t">REQ-9 · تقارير الساعات</h4>
+            <p data-i18n-html="impact.r9d">مجاميع لوحة الطالب وإحصائيات المشرف عبر <code>ClubSupervisorReportService</code>.</p>
+          </div>
+          <div class="impact-card">
+            <h4 data-i18n="impact.r10t">REQ-10 · التحقق من الساعات</h4>
+            <p data-i18n-html="impact.r10d">حدود 0–100 وسجل واحد لكل طالب وفعالية عبر <code>updateOrCreate</code>.</p>
+          </div>
+          <div class="impact-card">
+            <h4 data-i18n="impact.r22t">REQ-22 · تقارير PDF للنادي</h4>
+            <p data-i18n="impact.r22d">ثلاثة أنواع تقارير ثنائية اللغة مع تشكيل عربي.</p>
+          </div>
         </div>
       </div>
     </div>
