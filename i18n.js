@@ -360,6 +360,7 @@ window.PORTFOLIO_I18N = {
     'impact.h4': '<strong>Architected bilingual UI</strong> — cookie locale, Inertia sharing, Svelte <code>t()</code> helper, 21× AR/EN groups, parity tests.',
 
     'contact.title': "Let's connect",
+    'contact.compact.desc': 'Open to academic or technical collaboration — reach out anytime.',
     'contact.desc': 'Interested in a Teaching Associate who brings academic excellence, clear communication, and production-quality documentation? I\'d welcome a conversation with UQU faculty.',
     'contact.email': 'Email me',
     'contact.github': 'GitHub',
@@ -730,6 +731,7 @@ window.PORTFOLIO_I18N = {
     'impact.h4': '<strong>هندسة واجهة ثنائية اللغة</strong> — Cookie للغة، مشاركة Inertia، <code>t()</code> في Svelte، 21× مجموعة عربي/إنجليزي، اختبارات تطابق.',
 
     'contact.title': 'التواصل',
+    'contact.compact.desc': 'مفتوحة للتواصل الأكاديمي والتقني — تواصلي في أي وقت.',
     'contact.desc': 'يسعدني التواصل مع المهتمين بالمجال الأكاديمي أو التقني، ومناقشة فرص التعاون أو المشاركة في المبادرات التعليمية والتطويرية.',
     'contact.email': 'راسليني',
     'contact.github': 'GitHub',

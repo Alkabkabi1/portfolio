@@ -1444,7 +1444,76 @@ code {
   color: var(--text);
 }
 
-/* Contact */
+/* Contact — compact strip (early on page) */
+
+.contact-compact {
+  padding: 1.25rem 0;
+  background: var(--bg-elevated);
+  border-block: 1px solid var(--border-subtle);
+}
+
+.contact-compact-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.contact-compact-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.contact-compact-desc {
+  margin: 0;
+  flex: 1;
+  min-width: min(100%, 220px);
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.contact-compact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-inline-start: auto;
+}
+
+.contact-compact-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.contact-compact-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-compact-link-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border-color: transparent;
+}
+
+.contact-compact-link-primary:hover {
+  background: var(--btn-primary-hover);
+  color: var(--btn-primary-text);
+}
+
+/* Contact — full card (legacy, kept if reused) */
 
 .contact-card {
   text-align: center;
@@ -2702,6 +2771,25 @@ code {
   .contact-links .btn {
     width: 100%;
     justify-content: center;
+  }
+
+  .contact-compact-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-compact-links {
+    margin-inline-start: 0;
+  }
+
+  .contact-compact-link {
+    justify-content: center;
+    flex: 1;
+    min-width: calc(50% - 0.25rem);
+  }
+
+  .contact-compact-link-primary {
+    min-width: 100%;
   }
 
   .focus-list li {
