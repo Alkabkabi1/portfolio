@@ -1,0 +1,129 @@
+% Compile on Overleaf or with: pdflatex resume.tex
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{fontspec}
+\usepackage{xcolor}
+
+% Use XeLaTeX/LuaLaTeX for fontspec; on pdfLaTeX-only setups, comment fontspec and use default fonts.
+\setmainfont{TeX Gyre Heros}
+
+\definecolor{accent}{HTML}{1a365d}
+\definecolor{muted}{HTML}{4a5568}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+
+\newcommand{\resumeSubheading}[4]{%
+  \vspace{4pt}%
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{#1} & \textcolor{muted}{\small #2} \\
+    \textit{#3} & \textcolor{muted}{\small #4} \\
+  \end{tabularx}%
+}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% ── Header ──────────────────────────────────────────────────────────────────
+\begin{center}
+  {\LARGE\bfseries Norah Mohammed Alkabkabi}\\[4pt]
+  \small
+  Makkah, Saudi Arabia \textbar{} +966\,541\,539\,940 \textbar{}
+  \href{mailto:nora.alkabkabi@gmail.com}{nora.alkabkabi@gmail.com}\\[2pt]
+  \href{https://github.com/Alkabkabi1}{github.com/Alkabkabi1} \textbar{}
+  \href{https://linkedin.com/in/}{linkedin.com/in/} \textbar{}
+  Portfolio: \href{https://github.com/Alkabkabi1/portfolio}{github.com/Alkabkabi1/portfolio}
+\end{center}
+
+\vspace{6pt}
+
+% ── Education ───────────────────────────────────────────────────────────────
+\section{Education}
+\resumeSubheading%
+  {Umm Al-Qura University — Bachelor of Science in Software Engineering}%
+  {Makkah, Saudi Arabia}%
+  {College of Computing \textbar{} \textbf{GPA: 3.66/4.00} (Excellent)}%
+  {Aug 2022 — Jun 2026}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+  \resumeItem{164 credit hours completed; Excellent standing (\textbf{GPA: 3.66/4.00}).}
+\end{itemize}
+
+% ── Technical Skills ────────────────────────────────────────────────────────
+\section{Technical Skills}
+\small
+\textbf{Languages:} Java, Python, JavaScript, SQL, HTML/CSS\\
+\textbf{Frameworks \& Tools:} Node.js, Express.js, Laravel, Svelte, Inertia.js, Pest, Filament, Git, GitHub Actions\\
+\textbf{Databases:} MySQL\\
+\textbf{Practices:} REST APIs, RBAC, automated testing, CI/CD, SRS documentation, bilingual (AR/EN) UI
+
+% ── Experience ──────────────────────────────────────────────────────────────
+\section{Experience}
+\resumeSubheading%
+  {Co-op Trainee — IT Department}%
+  {Jul 2025 — Dec 2025}%
+  {King Abdulaziz Hospital (Al-Zahir), Mecca — Ministry of Health}%
+  {}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+  \resumeItem{Developed and deployed \textbf{2 full-stack internal systems} on the hospital production server (Node.js, Express, MySQL): role-based dashboards and HR request pages with REST APIs; maintenance/data-center module with ticketing, server monitoring, and backup workflows.}
+  \resumeItem{Built \textbf{17+ digital HR forms} and multi-step approval workflows, streamlining report routing and reducing manual processing across departments.}
+  \resumeItem{Shipped a \textbf{bilingual Arabic/English} interface in a live healthcare IT environment.}
+  \resumeItem{Delivered \textbf{67 passing automated tests}, CSP security headers, and rate limiting before go-live.}
+  \resumeItem{Received a \textbf{Certificate of Appreciation} from hospital leadership \textbar{} \href{https://github.com/Alkabkabi1/hosipital-mangment-intermidate}{GitHub}}
+\end{itemize}
+
+% ── Projects ────────────────────────────────────────────────────────────────
+\section{Projects}
+
+\resumeSubheading%
+  {Ruwad — Student Clubs Platform (Graduation Project)}%
+  {2025 — 2026}%
+  {Umm Al-Qura University \textbar{} \href{https://ruwad.space}{ruwad.space}}%
+  {}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+  \resumeItem{Led key modules on a team-built platform using \textbf{Laravel 13, Svelte 5, and Inertia.js} to manage student clubs, events, and volunteer hours.}
+  \resumeItem{Mapped implementation to an \textbf{SRS} with \textbf{18+ Pest tests}, 9 Eloquent factories, and 11 seeders for reproducible QA.}
+  \resumeItem{Shipped bilingual PDF reports (DomPDF), RTL/i18n support (21 translation groups), and GitHub Actions CI on the live deployment.}
+\end{itemize}
+
+% ── Certifications ──────────────────────────────────────────────────────────
+\section{Certifications \& Training}
+\small
+\textbf{Completed:}\\
+\textbf{Introduction to Project Management} — IBM (Coursera) \textbar{}
+\textbf{Build Your Portfolio Website with HTML and CSS} — Coursera\\[4pt]
+\textbf{Planned — recommended next (replace when earned):}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+  \resumeItem{\textit{[Harvard CS50 — Introduction to Computer Science]} — Harvard / edX (free)}
+  \resumeItem{\textit{[AWS Certified Cloud Practitioner]} — Amazon Web Services}
+  \resumeItem{\textit{[Microsoft Azure Fundamentals (AZ-900)]} — Microsoft}
+  \resumeItem{\textit{[Google Career Certificate — Data Analytics or Project Management]} — Coursera}
+  \resumeItem{\textit{[Tuwaiq Academy Bootcamp or Tamheer Program]} — Saudi on-the-job training path}
+\end{itemize}
+\vspace{2pt}
+\textbf{Languages:} Arabic (Native) \textbar{} English (Intermediate — B1)
+
+% ── Scientific Recommendations ──────────────────────────────────────────────
+\section{Scientific Recommendations}
+\small
+\textbf{Fill in before applying (replace placeholders):}
+\begin{itemize}[leftmargin=*, nosep, topsep=2pt]
+  \resumeItem{\textit{[Dr. Full Name]} · \textit{Capstone Advisor, Ruwad Project}\\
+  \textit{[Professor / Assistant Professor]}, \textit{[Software Engineering Department]}, Umm Al-Qura University \textbar{} \textit{[email@uqu.edu.sa]} \textbar{} \textit{[+966 XX XXX XXXX]} \textbar{} Portfolio: \href{https://github.com/Alkabkabi1/portfolio}{github.com/Alkabkabi1/portfolio}}
+  \resumeItem{\textit{[Dr. Full Name]} · \textit{Software Testing Course Instructor}\\
+  \textit{[Professor / Lecturer]}, \textit{[Software Engineering Department]}, Umm Al-Qura University \textbar{} \textit{[email@uqu.edu.sa]} \textbar{} \textit{[+966 XX XXX XXXX]} \textbar{} Portfolio: \href{https://github.com/Alkabkabi1/portfolio}{github.com/Alkabkabi1/portfolio}}
+  \resumeItem{\textit{[Dr. Full Name]} · \textit{Co-op Academic Supervisor}\\
+  \textit{[Professor / Faculty Advisor]}, \textit{[Software Engineering Department]}, Umm Al-Qura University \textbar{} \textit{[email@uqu.edu.sa]} \textbar{} \textit{[+966 XX XXX XXXX]} \textbar{} Portfolio: \href{https://github.com/Alkabkabi1/portfolio}{github.com/Alkabkabi1/portfolio}}
+\end{itemize}
+
+\end{document}

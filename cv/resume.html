@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Norah Alkabkabi — Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+    :root {
+      --text: #1a202c;
+      --muted: #4a5568;
+      --accent: #1a365d;
+      --rule: #cbd5e0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', system-ui, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.45;
+      color: var(--text);
+      background: #e2e8f0;
+      padding: 1.5rem;
+    }
+
+    .page {
+      max-width: 8.27in;
+      min-height: 11.69in;
+      margin: 0 auto;
+      background: #fff;
+      padding: 0.55in 0.6in;
+      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+    }
+
+    header { text-align: center; margin-bottom: 0.85rem; }
+
+    h1 {
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+    }
+
+    .contact {
+      margin-top: 0.35rem;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .contact a { color: var(--accent); text-decoration: none; }
+
+    section { margin-bottom: 0.75rem; }
+
+    h2 {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      border-bottom: 1.5px solid var(--accent);
+      padding-bottom: 0.2rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      margin-bottom: 0.15rem;
+    }
+
+    .entry-title { font-weight: 700; font-size: 1rem; }
+    .entry-date { font-size: 0.88rem; color: var(--muted); white-space: nowrap; }
+    .entry-sub { font-style: italic; color: var(--muted); font-size: 0.95rem; }
+
+    ul {
+      margin: 0.2rem 0 0 1.1rem;
+      padding: 0;
+    }
+
+    li { margin-bottom: 0.18rem; }
+
+    .skills p { margin-bottom: 0.15rem; }
+    .skills strong { color: var(--accent); }
+
+    .gpa { font-weight: 700; }
+
+    .placeholder {
+      background: #fef3c7;
+      padding: 0 0.15rem;
+      border-radius: 2px;
+      font-style: italic;
+      color: var(--muted);
+    }
+
+    .sub-label {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin: 0.35rem 0 0.15rem;
+    }
+
+    .highlight-list li { font-size: 0.95rem; }
+
+    .ref-list li { margin-bottom: 0.35rem; }
+
+    .ref-note {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .ref-meta {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-top: 0.1rem;
+      margin-left: 1.1rem;
+    }
+
+    .cert-block { font-size: 0.95rem; margin-bottom: 0.2rem; }
+
+    .print-hint {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 0.45in 0.55in; max-width: none; }
+      .print-hint { display: none; }
+      .placeholder { background: transparent; font-style: italic; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Norah Mohammed Alkabkabi</h1>
+      <p class="contact">
+        Makkah, Saudi Arabia &nbsp;|&nbsp; +966 541 539 940 &nbsp;|&nbsp;
+        <a href="mailto:nora.alkabkabi@gmail.com">nora.alkabkabi@gmail.com</a><br>
+        <a href="https://github.com/Alkabkabi1">github.com/Alkabkabi1</a> &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/">linkedin.com/in/</a> &nbsp;|&nbsp;
+        Portfolio: <a href="https://github.com/Alkabkabi1/portfolio">github.com/Alkabkabi1/portfolio</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry-header">
+        <div>
+          <div class="entry-title">Umm Al-Qura University — B.Sc. Software Engineering</div>
+          <div class="entry-sub">College of Computing &nbsp;|&nbsp; <span class="gpa">GPA: 3.66/4.00</span> (Excellent)</div>
+        </div>
+        <div class="entry-date">Aug 2022 — Jun 2026</div>
+      </div>
+      <ul>
+        <li>164 credit hours completed; Excellent standing (<span class="gpa">3.66/4.00</span>).</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <p><strong>Languages:</strong> Java, Python, JavaScript, SQL, HTML/CSS</p>
+      <p><strong>Frameworks &amp; Tools:</strong> Node.js, Express.js, Laravel, Svelte, Inertia.js, Pest, Filament, Git, GitHub Actions</p>
+      <p><strong>Databases:</strong> MySQL</p>
+      <p><strong>Practices:</strong> REST APIs, RBAC, automated testing, CI/CD, SRS documentation, bilingual (AR/EN) UI</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="entry-header">
+        <div>
+          <div class="entry-title">Co-op Trainee — IT Department</div>
+          <div class="entry-sub">King Abdulaziz Hospital (Al-Zahir), Mecca — Ministry of Health</div>
+        </div>
+        <div class="entry-date">Jul 2025 — Dec 2025</div>
+      </div>
+      <ul>
+        <li>Developed and deployed <strong>2 full-stack internal systems</strong> on the hospital production server (Node.js, Express, MySQL): role-based dashboards and HR request pages with REST APIs; maintenance/data-center module with ticketing, server monitoring, and backup workflows.</li>
+        <li>Built <strong>17+ digital HR forms</strong> and multi-step approval workflows, streamlining report routing and reducing manual processing across departments.</li>
+        <li>Shipped a <strong>bilingual Arabic/English</strong> interface in a live healthcare IT environment.</li>
+        <li>Delivered <strong>67 passing automated tests</strong>, CSP security headers, and rate limiting before go-live.</li>
+        <li>Received a <strong>Certificate of Appreciation</strong> from hospital leadership · <a href="https://github.com/Alkabkabi1/hosipital-mangment-intermidate">GitHub</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="entry-header">
+        <div>
+          <div class="entry-title">Ruwad — Student Clubs Platform (Graduation Project)</div>
+          <div class="entry-sub">Umm Al-Qura University &nbsp;|&nbsp; <a href="https://ruwad.space">ruwad.space</a></div>
+        </div>
+        <div class="entry-date">2025 — 2026</div>
+      </div>
+      <ul>
+        <li>Led key modules on a team-built platform using <strong>Laravel 13, Svelte 5, and Inertia.js</strong> for clubs, events, and volunteer hours.</li>
+        <li>Mapped implementation to an <strong>SRS</strong> with <strong>18+ Pest tests</strong>, 9 Eloquent factories, and 11 seeders.</li>
+        <li>Shipped bilingual PDF reports, RTL/i18n (21 translation groups), and GitHub Actions CI on live deployment.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications &amp; Training</h2>
+      <p class="sub-label">Completed</p>
+      <p class="cert-block"><strong>Introduction to Project Management</strong> — IBM (Coursera) &nbsp;|&nbsp;
+         <strong>Build Your Portfolio Website with HTML and CSS</strong> — Coursera</p>
+
+      <p class="sub-label">Planned — recommended next (replace when earned)</p>
+      <ul class="highlight-list">
+        <li><span class="placeholder">[Harvard CS50 — Introduction to Computer Science]</span> — Harvard / edX (free)</li>
+        <li><span class="placeholder">[AWS Certified Cloud Practitioner]</span> — Amazon Web Services</li>
+        <li><span class="placeholder">[Microsoft Azure Fundamentals (AZ-900)]</span> — Microsoft</li>
+        <li><span class="placeholder">[Google Career Certificate — Data Analytics or Project Management]</span> — Coursera</li>
+        <li><span class="placeholder">[Tuwaiq Academy Bootcamp or Tamheer Program]</span> — Saudi on-the-job training path</li>
+      </ul>
+
+      <p class="cert-block" style="margin-top: 0.35rem;"><strong>Languages:</strong> Arabic (Native) &nbsp;|&nbsp; English (Intermediate — B1)</p>
+    </section>
+
+    <section>
+      <h2>Scientific Recommendations</h2>
+      <p class="sub-label">Fill in before applying (replace placeholders)</p>
+      <ul class="highlight-list ref-list">
+        <li>
+          <span class="placeholder">[Dr. Full Name]</span>
+          <span class="ref-note">· Capstone Advisor, Ruwad Project</span>
+          <div class="ref-meta">
+            <span class="placeholder">[Professor / Assistant Professor]</span>,
+            <span class="placeholder">[Software Engineering Department]</span>,
+            Umm Al-Qura University ·
+            <span class="placeholder">[email@uqu.edu.sa]</span> ·
+            <span class="placeholder">[+966 XX XXX XXXX]</span> ·
+            Portfolio: <a href="https://github.com/Alkabkabi1/portfolio">github.com/Alkabkabi1/portfolio</a>
+          </div>
+        </li>
+        <li>
+          <span class="placeholder">[Dr. Full Name]</span>
+          <span class="ref-note">· Software Testing Course Instructor</span>
+          <div class="ref-meta">
+            <span class="placeholder">[Professor / Lecturer]</span>,
+            <span class="placeholder">[Software Engineering Department]</span>,
+            Umm Al-Qura University ·
+            <span class="placeholder">[email@uqu.edu.sa]</span> ·
+            <span class="placeholder">[+966 XX XXX XXXX]</span> ·
+            Portfolio: <a href="https://github.com/Alkabkabi1/portfolio">github.com/Alkabkabi1/portfolio</a>
+          </div>
+        </li>
+        <li>
+          <span class="placeholder">[Dr. Full Name]</span>
+          <span class="ref-note">· Co-op Academic Supervisor</span>
+          <div class="ref-meta">
+            <span class="placeholder">[Professor / Faculty Advisor]</span>,
+            <span class="placeholder">[Software Engineering Department]</span>,
+            Umm Al-Qura University ·
+            <span class="placeholder">[email@uqu.edu.sa]</span> ·
+            <span class="placeholder">[+966 XX XXX XXXX]</span> ·
+            Portfolio: <a href="https://github.com/Alkabkabi1/portfolio">github.com/Alkabkabi1/portfolio</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <p class="print-hint">Print this page (Ctrl+P) and choose “Save as PDF” for a one-page resume.</p>
+</body>
+</html>
