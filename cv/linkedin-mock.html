@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LinkedIn Profile Mock — Norah Alkabkabi</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+    :root {
+      --bg: #f3f2ef;
+      --card: #fff;
+      --blue: #0a66c2;
+      --blue-dark: #004182;
+      --text: rgba(0,0,0,.9);
+      --muted: rgba(0,0,0,.6);
+      --border: rgba(0,0,0,.08);
+      --green: #057642;
+      --guide-bg: #fff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: #1b1f23;
+      color: #fff;
+      padding: .75rem 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: .75rem;
+    }
+
+    .topbar h1 { font-size: .95rem; font-weight: 700; }
+    .topbar p { font-size: .8rem; opacity: .8; }
+
+    .topbar-actions { display: flex; gap: .45rem; flex-wrap: wrap; }
+
+    .btn {
+      border: none;
+      border-radius: 999px;
+      padding: .4rem .9rem;
+      font: inherit;
+      font-weight: 600;
+      font-size: .82rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .btn-ghost {
+      background: rgba(255,255,255,.1);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,.2);
+    }
+
+    .btn-blue { background: var(--blue); color: #fff; }
+
+    .shell {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 3rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 320px;
+      gap: 1.25rem;
+      align-items: start;
+    }
+
+    @media (max-width: 960px) {
+      .shell { grid-template-columns: 1fr; }
+      .guide { order: -1; position: static; }
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: .65rem;
+      overflow: hidden;
+    }
+
+    /* ── LinkedIn-style profile header ── */
+    .profile-card { overflow: visible; }
+
+    .banner {
+      height: 168px;
+      background: #0e5a38 url('../assets/cover-linkedin.png') center / cover no-repeat;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .profile-main {
+      display: flex;
+      gap: 1.25rem;
+      padding: 0 1.5rem 1.25rem;
+      margin-top: -72px;
+    }
+
+    .avatar {
+      width: 136px;
+      height: 136px;
+      border-radius: 50%;
+      border: 4px solid var(--card);
+      object-fit: cover;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    }
+
+    .profile-meta {
+      flex: 1;
+      min-width: 0;
+      padding-top: 4.25rem;
+    }
+
+    .profile-meta h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    .headline {
+      margin-top: .35rem;
+      font-size: .95rem;
+      color: var(--text);
+    }
+
+    .subline {
+      margin-top: .45rem;
+      font-size: .85rem;
+      color: var(--muted);
+    }
+
+    .open-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      margin-top: .65rem;
+      padding: .3rem .65rem;
+      border-radius: 4px;
+      background: #e8f5e9;
+      color: var(--green);
+      font-size: .78rem;
+      font-weight: 600;
+    }
+
+    .open-pill::before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    .li-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem;
+      margin-top: .85rem;
+    }
+
+    .li-btn {
+      border-radius: 999px;
+      padding: .35rem .85rem;
+      font-size: .85rem;
+      font-weight: 600;
+      border: 1px solid transparent;
+    }
+
+    .li-btn-fill { background: var(--blue); color: #fff; }
+    .li-btn-line { border-color: var(--blue); color: var(--blue); background: transparent; }
+    .li-btn-soft { border-color: var(--muted); color: var(--muted); background: transparent; }
+
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .35rem 1rem;
+      margin-top: .85rem;
+      padding-top: .85rem;
+      border-top: 1px solid var(--border);
+      font-size: .82rem;
+      color: var(--muted);
+    }
+
+    .contact-row a { color: var(--blue); text-decoration: none; }
+
+    /* ── Section cards ── */
+    .sec-title {
+      padding: .85rem 1.25rem;
+      font-size: 1rem;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sec-body { padding: 1rem 1.25rem 1.15rem; }
+
+    .sec-body p { font-size: .875rem; white-space: pre-line; }
+
+    .entry {
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: .65rem;
+      padding: .85rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .entry:last-child { border-bottom: none; }
+
+    .entry-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 4px;
+      background: #eef3f8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+
+    .entry h4 { font-size: .92rem; font-weight: 700; }
+    .entry .org { font-size: .84rem; color: var(--muted); margin-top: .1rem; }
+    .entry .when { font-size: .78rem; color: var(--muted); margin-top: .15rem; }
+    .entry .desc { font-size: .84rem; margin-top: .45rem; white-space: pre-line; }
+
+    .featured {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .65rem;
+      padding: 1rem 1.25rem 1.15rem;
+    }
+
+    @media (max-width: 640px) { .featured { grid-template-columns: 1fr; } }
+
+    .feat {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .feat-img { height: 64px; }
+    .feat-img.g { background: linear-gradient(135deg, #0e5a38, #1a7a52); }
+    .feat-img.b { background: linear-gradient(135deg, #0a66c2, #004182); }
+    .feat-img.k { background: linear-gradient(135deg, #1b1f23, #38434f); }
+
+    .feat span {
+      display: block;
+      padding: .55rem .65rem;
+      font-size: .78rem;
+      font-weight: 600;
+    }
+
+    .feat small {
+      display: block;
+      font-weight: 400;
+      color: var(--muted);
+      margin-top: .1rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      padding: 1rem 1.25rem 1.15rem;
+    }
+
+    .skill {
+      padding: .3rem .75rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: .82rem;
+      font-weight: 600;
+    }
+
+    .skill.pin { background: #eef3f8; border-color: #c5d9ed; }
+
+    /* ── Copy guide panel ── */
+    .guide {
+      position: sticky;
+      top: 4.5rem;
+    }
+
+    .guide-card {
+      background: var(--guide-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: .65rem;
+    }
+
+    .guide-head {
+      padding: .85rem 1rem;
+      background: #eef3f8;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .guide-head h3 { font-size: .9rem; font-weight: 700; }
+    .guide-head p { font-size: .78rem; color: var(--muted); margin-top: .2rem; }
+
+    .copy-list { list-style: none; }
+
+    .copy-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: .5rem;
+      padding: .55rem 1rem;
+      border-bottom: 1px solid var(--border);
+      font-size: .84rem;
+    }
+
+    .copy-item:last-child { border-bottom: none; }
+
+    .copy-item span { color: var(--muted); font-size: .75rem; }
+
+    .copy-btn {
+      flex-shrink: 0;
+      border: 1px solid var(--blue);
+      background: #fff;
+      color: var(--blue);
+      border-radius: 999px;
+      padding: .22rem .65rem;
+      font: inherit;
+      font-size: .75rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover { background: #eef3f8; }
+    .copy-btn.ok { background: #e8f5e9; border-color: var(--green); color: var(--green); }
+
+    .checklist { list-style: none; padding: .5rem 1rem .75rem; }
+
+    .checklist li {
+      display: flex;
+      gap: .45rem;
+      padding: .35rem 0;
+      font-size: .82rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .checklist li:last-child { border-bottom: none; }
+    .checklist input { accent-color: var(--blue); margin-top: .15rem; }
+
+    .note {
+      margin: 0 1.25rem 1rem;
+      padding: .6rem .75rem;
+      background: #fff8e6;
+      border-radius: 6px;
+      font-size: .78rem;
+      color: #6b5600;
+      border-left: 3px solid #e6b800;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+
+    @media print {
+      .topbar, .guide { display: none; }
+      .shell { display: block; max-width: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div>
+      <h1>LinkedIn mock — Norah Alkabkabi</h1>
+      <p>Left: how it should look · Right: copy into LinkedIn</p>
+    </div>
+    <div class="topbar-actions">
+      <a class="btn btn-ghost" href="../index.html">Portfolio</a>
+      <a class="btn btn-ghost" href="resume.html">Resume</a>
+      <button class="btn btn-blue" type="button" onclick="window.print()">Print</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <!-- ═══ PREVIEW (clean LinkedIn mock) ═══ -->
+    <main class="preview">
+
+      <article class="card profile-card">
+        <div class="banner"></div>
+        <div class="profile-main">
+          <img class="avatar" src="../assets/avatar.png" alt="Norah Mohammed Alkabkabi" width="136" height="136">
+          <div class="profile-meta">
+            <h2>Norah Mohammed Alkabkabi</h2>
+            <p class="headline">Software Engineering Graduate · B.Sc. Umm Al-Qura University (GPA 3.67, Second Honors) · Full-Stack &amp; QA</p>
+            <p class="subline">Mecca, Makkah, Saudi Arabia · Software Development</p>
+            <div class="open-pill">Open to work · Software Engineer, QA Engineer · Makkah</div>
+            <div class="li-actions">
+              <span class="li-btn li-btn-fill">Open to</span>
+              <span class="li-btn li-btn-line">Add profile section</span>
+              <span class="li-btn li-btn-soft">More</span>
+            </div>
+            <div class="contact-row">
+              <a href="mailto:nora.alkabkabi@gmail.com">nora.alkabkabi@gmail.com</a>
+              <span>+966 541 539 940</span>
+              <a href="https://linkedin.com/in/norah-alkabkabi">linkedin.com/in/norah-alkabkabi</a>
+              <a href="https://alkabkabi1.github.io/portfolio">Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">About</h3>
+        <div class="sec-body">
+          <p>Software Engineering graduate from Umm Al-Qura University (GPA 3.67/4.00, second honors, 164 credit hours). I build reliable software with a strong focus on testing, documentation, and bilingual (Arabic/English) interfaces.
+
+During my co-op at King Abdulaziz Hospital (Ministry of Health), I deployed two full-stack internal systems on the hospital production server — with 67 automated tests, RBAC, and security hardening — and received a Certificate of Appreciation from hospital leadership.
+
+For my graduation project, Ruwad (ruwad.space), I contributed to a live student-clubs platform using Laravel, Svelte, and Inertia.js — SRS-aligned Pest testing, PDF reports, i18n, and GitHub Actions CI.
+
+Open to software engineering, QA, and technical roles in Makkah.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Featured</h3>
+        <div class="featured">
+          <div class="feat"><div class="feat-img g"></div><span>Portfolio<small>alkabkabi1.github.io/portfolio</small></span></div>
+          <div class="feat"><div class="feat-img b"></div><span>Ruwad<small>ruwad.space</small></span></div>
+          <div class="feat"><div class="feat-img k"></div><span>GitHub<small>github.com/Alkabkabi1</small></span></div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Experience</h3>
+        <div class="entry">
+          <div class="entry-icon">🏥</div>
+          <div>
+            <h4>Co-op Trainee — IT Department</h4>
+            <p class="org">King Abdulaziz Hospital (Al-Zahir) · Ministry of Health</p>
+            <p class="when">Jul 2025 – Dec 2025 · Mecca · Full-time</p>
+            <p class="desc">Deployed 2 full-stack systems (Node.js, Express, MySQL) on the hospital server. Built 17+ HR forms with approval workflows. Bilingual AR/EN UI. 67 automated tests, CSP headers, rate limiting. Certificate of Appreciation from leadership.<br><a href="https://alkabkabi1.github.io/portfolio/#training">alkabkabi1.github.io/portfolio/#training</a></p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Education</h3>
+        <div class="entry">
+          <div class="entry-icon">🎓</div>
+          <div>
+            <h4>Umm Al-Qura University</h4>
+            <p class="org">Bachelor of Science, Software Engineering</p>
+            <p class="when">Aug 2022 – Jun 2026 · Grade 3.67/4.00 · Second honors</p>
+            <p class="desc">Graduated 28 June 2026 · 164 credit hours · Activities: Ruwad graduation project (ruwad.space)</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Licenses &amp; certifications</h3>
+        <div class="entry">
+          <div class="entry-icon">📜</div>
+          <div>
+            <h4>Build Your Portfolio Website with HTML and CSS</h4>
+            <p class="org">Coursera · Nov 2023</p>
+            <p class="when">M53HGSHR98Z8</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-icon">📜</div>
+          <div>
+            <h4>Work Smarter, Not Harder: Time Management</h4>
+            <p class="org">UC Irvine · Coursera · Jul 2023</p>
+            <p class="when">C6M96FDN5RHA</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-icon">📜</div>
+          <div>
+            <h4>Java Calculator with Java and JavaFX</h4>
+            <p class="org">Coursera Guided Project · Oct 2023</p>
+            <p class="when">2KX28F9G4VR4</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Projects</h3>
+        <div class="entry">
+          <div class="entry-icon">🚀</div>
+          <div>
+            <h4>Ruwad — Student Clubs Platform</h4>
+            <p class="when">Jan 2025 – Jun 2026 · ruwad.space</p>
+            <p class="desc">Laravel 13, Svelte 5, Inertia.js, Pest 4. SRS-aligned tests, bilingual PDF reports, GitHub Actions CI. Focus: APIs, validation, i18n, DevOps.</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Honors &amp; awards</h3>
+        <div class="entry">
+          <div class="entry-icon">🏅</div>
+          <div>
+            <h4>Second Honors (مرتبة الشرف الثانية)</h4>
+            <p class="org">Umm Al-Qura University · Jun 2026</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="entry-icon">🏅</div>
+          <div>
+            <h4>Certificate of Appreciation</h4>
+            <p class="org">King Abdulaziz Hospital · Dec 2025</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="sec-title">Skills</h3>
+        <div class="skills">
+          <span class="skill pin">Software Testing</span>
+          <span class="skill pin">Laravel</span>
+          <span class="skill pin">JavaScript</span>
+          <span class="skill pin">REST APIs</span>
+          <span class="skill pin">MySQL</span>
+          <span class="skill">Node.js</span>
+          <span class="skill">Git</span>
+          <span class="skill">CI/CD</span>
+          <span class="skill">Python</span>
+          <span class="skill">Requirements Engineering</span>
+        </div>
+      </article>
+
+      <p class="note" style="margin:0 0 .65rem">On LinkedIn: add a profile photo, set industry to Software Development, and change education end date from Jan → Jun 2026.</p>
+
+    </main>
+
+    <!-- ═══ COPY GUIDE (sidebar) ═══ -->
+    <aside class="guide">
+      <div class="guide-card">
+        <div class="guide-head">
+          <h3>Copy into LinkedIn</h3>
+          <p>Click Copy, then paste in the matching section</p>
+        </div>
+        <ul class="copy-list">
+          <li class="copy-item"><div>Headline</div><button class="copy-btn" type="button" data-copy="headline">Copy</button></li>
+          <li class="copy-item"><div>About</div><button class="copy-btn" type="button" data-copy="about">Copy</button></li>
+          <li class="copy-item"><div>Experience title</div><button class="copy-btn" type="button" data-copy="exp-title">Copy</button></li>
+          <li class="copy-item"><div>Experience description</div><button class="copy-btn" type="button" data-copy="exp-desc">Copy</button></li>
+          <li class="copy-item"><div>Education details</div><button class="copy-btn" type="button" data-copy="edu">Copy</button></li>
+          <li class="copy-item"><div>Project description</div><button class="copy-btn" type="button" data-copy="project">Copy</button></li>
+          <li class="copy-item"><div>Honor — hospital award</div><button class="copy-btn" type="button" data-copy="honor">Copy</button></li>
+          <li class="copy-item"><div>Open to work</div><button class="copy-btn" type="button" data-copy="open">Copy</button></li>
+          <li class="copy-item"><div>First post</div><button class="copy-btn" type="button" data-copy="post">Copy</button></li>
+        </ul>
+      </div>
+
+      <div class="guide-card">
+        <div class="guide-head"><h3>Setup checklist</h3></div>
+        <ul class="checklist">
+          <li><input type="checkbox"> Profile photo</li>
+          <li><input type="checkbox"> Industry: Software Development</li>
+          <li><input type="checkbox"> Headline (not "Student")</li>
+          <li><input type="checkbox"> Education ends Jun 2026, GPA 3.67</li>
+          <li><input type="checkbox"> 3 Coursera certifications</li>
+          <li><input type="checkbox"> Featured links × 3</li>
+          <li><input type="checkbox"> Open to work · Makkah</li>
+          <li><input type="checkbox"> URL: /in/norah-alkabkabi</li>
+          <li><input type="checkbox"> Ask Dr. Gazzawe for recommendation</li>
+          <li><input type="checkbox"> Ask Dr. Alharthi for recommendation</li>
+        </ul>
+      </div>
+
+      <div class="guide-card">
+        <div class="guide-head"><h3>Certification URLs</h3></div>
+        <ul class="copy-list">
+          <li class="copy-item"><div>Portfolio HTML/CSS</div><button class="copy-btn" type="button" data-copy="cert1">Copy</button></li>
+          <li class="copy-item"><div>Time Management</div><button class="copy-btn" type="button" data-copy="cert2">Copy</button></li>
+          <li class="copy-item"><div>Java Calculator</div><button class="copy-btn" type="button" data-copy="cert3">Copy</button></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Hidden copy sources -->
+  <div class="sr-only" aria-hidden="true">
+    <div id="src-headline">Software Engineering Graduate | B.Sc. Umm Al-Qura University (GPA 3.67, Second Honors) | Full-Stack & QA | Co-op @ King Abdulaziz Hospital</div>
+    <div id="src-about">Software Engineering graduate from Umm Al-Qura University (GPA 3.67/4.00, second honors, 164 credit hours). I build reliable software with a strong focus on testing, documentation, and bilingual (Arabic/English) interfaces.
+
+During my co-op at King Abdulaziz Hospital (Ministry of Health), I deployed two full-stack internal systems on the hospital production server — with 67 automated tests, RBAC, and security hardening — and received a Certificate of Appreciation from hospital leadership.
+
+For my graduation project, Ruwad (ruwad.space), I contributed to a live student-clubs platform using Laravel, Svelte, and Inertia.js — SRS-aligned Pest testing, PDF reports, i18n, and GitHub Actions CI.
+
+I am open to software engineering, QA, and technical roles in Makkah, and I aspire to grow into a Teaching Associate (Mu'ida) role where I can combine engineering practice with explaining concepts clearly to others.
+
+Portfolio: alkabkabi1.github.io/portfolio
+GitHub: github.com/Alkabkabi1</div>
+    <div id="src-exp-title">Co-op Trainee — IT Department</div>
+    <div id="src-exp-desc">• Developed and deployed 2 full-stack internal systems on the hospital production server (Node.js, Express, MySQL): role-based dashboards, HR request pages with REST APIs, and a maintenance/data-center module with ticketing, server monitoring, and backup workflows.
+
+• Built 17+ digital HR forms and multi-step approval workflows, streamlining report routing across departments.
+
+• Delivered a bilingual Arabic/English interface in a live healthcare IT environment.
+
+• Shipped 67 passing automated tests, CSP security headers, and rate limiting before go-live.
+
+• Received a Certificate of Appreciation from hospital leadership for professional performance during co-op training.
+
+Project page: alkabkabi1.github.io/portfolio/#training</div>
+    <div id="src-edu">Grade: 3.67/4.00 (Excellent)
+Honors: Second honors (مرتبة الشرف الثانية)
+Graduation date: 28 June 2026
+164 credit hours completed
+
+Activities: Graduation project — Ruwad student clubs platform (ruwad.space)
+Relevant coursework: Software Testing (A+), Web Engineering (A+), Project Management (A+), Requirements Engineering, Software Design & Construction, DevOps, Cooperative Training (100/100)</div>
+    <div id="src-project">Associated with Umm Al-Qura University
+
+Live platform for student clubs, events, and volunteer hours at ruwad.space.
+
+• Laravel 13, Svelte 5, Inertia.js, Pest 4, Filament v4
+• SRS-aligned implementation with 18+ Pest tests, factories, and seeders
+• Bilingual PDF reports, RTL/i18n (21 translation groups), GitHub Actions CI
+• My focus: data layer, APIs, validation, PDF reports, i18n, Pest tests, DevOps</div>
+    <div id="src-honor">Awarded for professional performance during co-operative training and effective contribution to the Executive Directorate for Digital Health's development initiatives at King Abdulaziz Hospital, Makkah.</div>
+    <div id="src-open">Job titles:
+• Software Engineer
+• Junior Software Developer
+• QA Engineer / Software Tester
+• Web Developer
+• Teaching Associate (Mu'ida)
+
+Location: Makkah, Saudi Arabia (on-site or hybrid)
+Start date: Immediately available</div>
+    <div id="src-post">Excited to share that I've graduated from Umm Al-Qura University with a B.Sc. in Software Engineering (GPA 3.67, second honors).
+
+During my co-op at King Abdulaziz Hospital, I deployed 2 internal systems with 67 automated tests. My graduation project Ruwad is live at ruwad.space.
+
+Open to software engineering and QA opportunities in Makkah.
+
+Portfolio: alkabkabi1.github.io/portfolio</div>
+    <div id="src-cert1">https://coursera.org/verify/M53HGSHR98Z8</div>
+    <div id="src-cert2">https://coursera.org/verify/C6M96FDN5RHA</div>
+    <div id="src-cert3">https://coursera.org/verify/2KX28F9G4VR4</div>
+  </div>
+
+  <script>
+    const map = {
+      headline: 'src-headline',
+      about: 'src-about',
+      'exp-title': 'src-exp-title',
+      'exp-desc': 'src-exp-desc',
+      edu: 'src-edu',
+      project: 'src-project',
+      honor: 'src-honor',
+      open: 'src-open',
+      post: 'src-post',
+      cert1: 'src-cert1',
+      cert2: 'src-cert2',
+      cert3: 'src-cert3'
+    };
+
+    document.querySelectorAll('.copy-btn').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const key = btn.getAttribute('data-copy');
+        const el = document.getElementById(map[key]);
+        if (!el) return;
+        const text = el.textContent.trim();
+        try {
+          await navigator.clipboard.writeText(text);
+          btn.textContent = 'Copied';
+          btn.classList.add('ok');
+          setTimeout(() => {
+            btn.textContent = 'Copy';
+            btn.classList.remove('ok');
+          }, 1600);
+        } catch {
+          btn.textContent = 'Failed';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

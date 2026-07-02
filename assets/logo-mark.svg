@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Norah logo">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e5a38"/>
+      <stop offset="100%" stop-color="#1a7a52"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="23" fill="url(#brand)"/>
+  <circle cx="24" cy="24" r="23" fill="none" stroke="#00d9a0" stroke-width="1.5" stroke-opacity="0.45"/>
+  <text x="24" y="30" text-anchor="middle" fill="#ffffff" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="0.04em">NA</text>
+  <circle cx="36" cy="36" r="4" fill="#00d9a0"/>
+</svg>

@@ -163,7 +163,7 @@ portfolio/
 | 🌐 | [Live portfolio](https://alkabkabi1.github.io/portfolio/) |
 | 👩‍💻 | [GitHub profile](https://github.com/Alkabkabi1) |
 | ✨ | [Ruwad — ruwad.space](https://ruwad.space) |
-| 🏥 | [Hospital co-op repo](https://github.com/Alkabkabi1/hosipital-mangment-intermidate) |
+| 🏥 | [Co-op project](https://alkabkabi1.github.io/portfolio/#training) |
 
 ---
 

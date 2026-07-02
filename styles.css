@@ -220,10 +220,19 @@ code {
 }
 
 .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--text);
   letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.nav-logo-mark {
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .nav-logo span {
@@ -552,6 +561,17 @@ code {
   text-align: center;
   max-width: 42rem;
   margin-inline: auto;
+}
+
+.hero-avatar {
+  display: block;
+  width: clamp(96px, 18vw, 120px);
+  height: clamp(96px, 18vw, 120px);
+  margin: 0 auto 1.15rem;
+  border-radius: 50%;
+  border: 3px solid var(--accent-3);
+  box-shadow: 0 8px 28px var(--glow-1), 0 0 0 4px var(--bg-card);
+  object-fit: cover;
 }
 
 .hero-hook {
