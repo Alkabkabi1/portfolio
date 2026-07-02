@@ -10,7 +10,7 @@
 
 [![Live site](https://img.shields.io/badge/🌐_Live-alkabkabi1.github.io%2Fportfolio-0e5a38?style=for-the-badge&logo=github&logoColor=white)](https://alkabkabi1.github.io/portfolio/)
 [![Ruwad](https://img.shields.io/badge/✨_Ruwad-ruwad.space-00d9a0?style=for-the-badge&labelColor=0a1210)](https://ruwad.space)
-[![GPA](https://img.shields.io/badge/🎓_GPA-3.66%20%2F%204.00-1a7a52?style=for-the-badge&labelColor=f8fbf9&color=0e5a38)](https://alkabkabi1.github.io/portfolio/#academics)
+[![GPA](https://img.shields.io/badge/🎓_GPA-3.67%20%2F%204.00-1a7a52?style=for-the-badge&labelColor=f8fbf9&color=0e5a38)](https://alkabkabi1.github.io/portfolio/#academics)
 [![Bilingual](https://img.shields.io/badge/🌍_Arabic%20%2B%20English-i18n-0e5a38?style=for-the-badge&labelColor=f8fbf9&color=1a7a52)](https://alkabkabi1.github.io/portfolio/)
 
 <br>
@@ -27,7 +27,7 @@
 
 | | 🎓 **Academics** | 🏥 **Co-op** | 🚀 **Ruwad** |
 |:---:|:---|:---|:---|
-| **Headline** | GPA **3.66** / 4.00 | King Abdulaziz Hospital | Student clubs platform |
+| **Headline** | GPA **3.67** / 4.00 · Second honors | King Abdulaziz Hospital | Student clubs platform |
 | **Proof** | 164 credits · A+ in rigorous courses | 2 systems deployed on hospital server | 18+ Pest tests · live on `main` |
 | **Vibe** | *Percentage breakdown from my official transcript* | *Industry best practices back to the classroom* | *Built to be graded and taught* |
 

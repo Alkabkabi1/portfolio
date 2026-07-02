@@ -1875,6 +1875,21 @@ code {
   font-weight: 600;
 }
 
+.education-doc-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.credentials-section {
+  margin-top: 2.5rem;
+}
+
+.credentials-rec-label {
+  margin-top: 2.5rem;
+}
+
 /* Credentials gallery */
 
 .credential-gallery {
@@ -2669,6 +2684,14 @@ code {
   .education-card .btn {
     width: 100%;
     justify-content: center;
+  }
+
+  .education-doc-links {
+    flex-direction: column;
+  }
+
+  .education-doc-links .btn {
+    width: 100%;
   }
 
   .grade-distribution-card {
