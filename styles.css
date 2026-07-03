@@ -659,8 +659,15 @@ body.nav-menu-open {
 
 .hero-pillars {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+}
+
+@media (min-width: 768px) {
+  .hero-pillars {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
 }
 
 .hero-pillar {
@@ -994,9 +1001,15 @@ body.nav-menu-open {
 
 .about-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-columns: 1fr;
   gap: clamp(1.5rem, 4vw, 2.5rem);
   align-items: start;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
 }
 
 .about-text p {
@@ -2025,17 +2038,28 @@ body.nav-menu-open {
 
 .credential-gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1.25rem;
   margin-bottom: 2rem;
 }
 
 .credential-gallery-three {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
 }
 
 .credential-gallery-two {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .credential-gallery,
+  .credential-gallery-two {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .credential-gallery-three {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .credential-gallery-one {
@@ -2102,9 +2126,15 @@ body.nav-menu-open {
 
 .academic-strengths-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.25rem;
   margin-top: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  .academic-strengths-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .academic-strength-card {
@@ -2121,7 +2151,13 @@ body.nav-menu-open {
 }
 
 .academic-strength-card-wide {
-  grid-column: span 3;
+  grid-column: span 1;
+}
+
+@media (min-width: 768px) {
+  .academic-strength-card-wide {
+    grid-column: span 3;
+  }
 }
 
 .academic-strength-card h4 {
@@ -2146,9 +2182,15 @@ body.nav-menu-open {
 
 .difficult-courses-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+@media (min-width: 520px) {
+  .difficult-courses-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 .course-card {
@@ -2344,9 +2386,15 @@ body.nav-menu-open {
 
 .mvc-diagram {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.75rem;
   margin: 1.5rem 0;
+}
+
+@media (min-width: 640px) {
+  .mvc-diagram {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .mvc-layer {
@@ -2846,35 +2894,6 @@ body.nav-menu-open {
 }
 
 @media (max-width: 900px) {
-  .hero-pillars {
-    grid-template-columns: 1fr;
-  }
-
-  .about-grid,
-  .test-grid,
-  .systems-grid,
-  .credential-gallery,
-  .credential-gallery-three,
-  .credential-gallery-two {
-    grid-template-columns: 1fr;
-  }
-
-  .credential-gallery-one {
-    grid-template-columns: 1fr;
-  }
-
-  .academic-strengths-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .academic-strength-card-wide {
-    grid-column: span 1;
-  }
-
-  .difficult-courses-grid {
-    grid-template-columns: 1fr;
-  }
-
   .mvc-diagram {
     grid-template-columns: 1fr;
   }
@@ -2949,15 +2968,24 @@ body.nav-menu-open {
   }
 
   .hero-pillars {
-    gap: 0.75rem;
+    gap: 0.85rem;
   }
 
   .hero-pillar {
-    padding: 1.1rem 1rem;
+    padding: 1.25rem 1.15rem;
   }
 
   .hero-pillar-metric {
-    font-size: 1.65rem;
+    font-size: 1.85rem;
+  }
+
+  .hero-pillar h2 {
+    font-size: 1.08rem;
+  }
+
+  .hero-pillar p {
+    font-size: 0.98rem;
+    line-height: 1.6;
   }
 
   .hero-foot {
