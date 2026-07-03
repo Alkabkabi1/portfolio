@@ -2169,9 +2169,21 @@ body.nav-menu-open {
 
 .course-projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.15rem;
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .course-projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .course-projects-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .course-project-card {
@@ -2863,16 +2875,6 @@ body.nav-menu-open {
     grid-template-columns: 1fr;
   }
 
-  .course-projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  @media (min-width: 640px) and (max-width: 1023px) {
-    .course-projects-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
   .mvc-diagram {
     grid-template-columns: 1fr;
   }
@@ -2893,7 +2895,7 @@ body.nav-menu-open {
 
 @media (max-width: 640px) {
   html {
-    font-size: clamp(15px, 4.2vw, 17px);
+    font-size: clamp(16px, 4.5vw, 18px);
   }
 
   .container {
@@ -3057,7 +3059,46 @@ body.nav-menu-open {
   .course-project-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.4rem;
+    gap: 0.5rem;
+  }
+
+  .course-projects-grid {
+    gap: 1.25rem;
+  }
+
+  .course-project-card {
+    padding: 1.35rem 1.25rem;
+  }
+
+  .course-project-header h4 {
+    font-size: 1.08rem;
+    line-height: 1.4;
+  }
+
+  .course-project-header .badge {
+    font-size: 0.75rem;
+  }
+
+  .course-project-course {
+    font-size: 0.88rem;
+  }
+
+  .course-project-desc {
+    font-size: 1rem;
+    line-height: 1.65;
+    margin-bottom: 1.15rem;
+  }
+
+  .course-project-link {
+    font-size: 0.95rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .course-projects-archive-link {
+    width: 100%;
+    justify-content: center;
   }
 
   .award-banner {
