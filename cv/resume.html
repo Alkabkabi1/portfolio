@@ -19,26 +19,25 @@
 
     body {
       font-family: 'Source Sans 3', system-ui, sans-serif;
-      font-size: 10.5pt;
-      line-height: 1.45;
+      font-size: 9.85pt;
+      line-height: 1.34;
       color: var(--text);
-      background: #e2e8f0;
-      padding: 1.5rem;
+      background: #fff;
+      padding: 0;
     }
 
     .page {
       max-width: 8.27in;
-      min-height: 11.69in;
+      min-height: auto;
       margin: 0 auto;
       background: #fff;
-      padding: 0.55in 0.6in;
-      box-shadow: 0 4px 24px rgba(0,0,0,.08);
+      padding: 0.32in 0.46in 0.24in;
     }
 
-    header { text-align: center; margin-bottom: 0.85rem; }
+    header { text-align: center; margin-bottom: 0.38rem; }
 
     h1 {
-      font-size: 1.55rem;
+      font-size: 1.42rem;
       font-weight: 700;
       letter-spacing: 0.02em;
       color: var(--accent);
@@ -50,19 +49,17 @@
       color: var(--muted);
     }
 
-    .contact a { color: var(--accent); text-decoration: none; }
-
-    section { margin-bottom: 0.75rem; }
+    section { margin-bottom: 0.34rem; }
 
     h2 {
-      font-size: 0.82rem;
+      font-size: 0.78rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: var(--accent);
       border-bottom: 1.5px solid var(--accent);
       padding-bottom: 0.2rem;
-      margin-bottom: 0.45rem;
+      margin-bottom: 0.24rem;
     }
 
     .entry-header {
@@ -73,18 +70,18 @@
       margin-bottom: 0.15rem;
     }
 
-    .entry-title { font-weight: 700; font-size: 1rem; }
+    .entry-title { font-weight: 700; font-size: 0.96rem; }
     .entry-date { font-size: 0.88rem; color: var(--muted); white-space: nowrap; }
     .entry-sub { font-style: italic; color: var(--muted); font-size: 0.95rem; }
 
     ul {
-      margin: 0.2rem 0 0 1.1rem;
+      margin: 0.08rem 0 0 1.1rem;
       padding: 0;
     }
 
-    li { margin-bottom: 0.18rem; }
+    li { margin-bottom: 0.08rem; }
 
-    .skills p { margin-bottom: 0.15rem; }
+    .skills p { margin-bottom: 0.1rem; }
     .skills strong { color: var(--accent); }
 
     .gpa { font-weight: 700; }
@@ -98,15 +95,19 @@
     }
 
     .sub-label {
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       font-weight: 700;
       color: var(--accent);
-      margin: 0.35rem 0 0.15rem;
+      margin: 0.2rem 0 0.08rem;
     }
 
-    .highlight-list li { font-size: 0.95rem; }
+    .highlight-list li { font-size: 0.92rem; }
 
-    .ref-list li { margin-bottom: 0.35rem; }
+    .ref-list li {
+      margin-bottom: 0.14rem;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
 
     .ref-note {
       font-style: italic;
@@ -115,41 +116,52 @@
     }
 
     .ref-meta {
-      font-size: 0.88rem;
+      font-size: 0.82rem;
       color: var(--muted);
-      margin-top: 0.1rem;
+      margin-top: 0.02rem;
       margin-left: 1.1rem;
+      line-height: 1.26;
     }
 
-    .cert-block { font-size: 0.95rem; margin-bottom: 0.2rem; }
+    .cert-block { font-size: 0.92rem; margin-bottom: 0.08rem; }
 
-    .print-hint {
-      text-align: center;
-      margin-top: 1rem;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
+    .print-hint { display: none; }
 
     @media print {
-      body { background: #fff; padding: 0; }
-      .page { box-shadow: none; padding: 0.45in 0.55in; max-width: none; }
+      @page { size: A4; margin: 0; }
+
+      body { background: #fff; padding: 0; font-size: 9.75pt; line-height: 1.32; }
+      .page {
+        box-shadow: none;
+        padding: 0.32in 0.46in 0.24in;
+        max-width: none;
+        min-height: auto;
+      }
+      header { margin-bottom: 0.38rem; }
+      h1 { font-size: 1.4rem; }
+      section { margin-bottom: 0.34rem; }
+      section:last-child { margin-bottom: 0; }
+      h2 { margin-bottom: 0.2rem; padding-bottom: 0.1rem; font-size: 0.76rem; }
+      ul { margin-top: 0.06rem; }
+      li { margin-bottom: 0.06rem; break-inside: avoid; page-break-inside: avoid; }
+      .entry-title { font-size: 0.94rem; }
+      .ref-list li { margin-bottom: 0.1rem; break-inside: avoid; page-break-inside: avoid; }
+      .ref-meta { font-size: 0.78rem; line-height: 1.24; }
+      .cert-block { margin-bottom: 0.06rem; font-size: 0.9rem; }
+      .skills p { margin-bottom: 0.08rem; }
+      .sub-label { margin: 0.16rem 0 0.06rem; }
       .print-hint { display: none; }
       .placeholder { background: transparent; font-style: italic; }
-      a { color: inherit; }
     }
   </style>
 </head>
 <body>
   <main class="page">
     <header>
-      <img src="../assets/avatar.png" alt="Norah Mohammed Alkabkabi" width="72" height="72" style="width:72px;height:72px;border-radius:50%;object-fit:cover;margin:0 auto .65rem;display:block;border:2px solid #1a7a52;">
       <h1>Norah Mohammed Alkabkabi</h1>
       <p class="contact">
         Makkah, Saudi Arabia &nbsp;|&nbsp; +966 541 539 940 &nbsp;|&nbsp;
-        <a href="mailto:nora.alkabkabi@gmail.com">nora.alkabkabi@gmail.com</a><br>
-        <a href="https://github.com/Alkabkabi1">github.com/Alkabkabi1</a> &nbsp;|&nbsp;
-        <a href="https://linkedin.com/in/">linkedin.com/in/</a> &nbsp;|&nbsp;
-        Portfolio: <a href="https://github.com/Alkabkabi1/portfolio">github.com/Alkabkabi1/portfolio</a>
+        nora.alkabkabi@gmail.com
       </p>
     </header>
 
@@ -189,7 +201,7 @@
         <li>Built <strong>17+ digital HR forms</strong> and multi-step approval workflows, streamlining report routing and reducing manual processing across departments.</li>
         <li>Shipped a <strong>bilingual Arabic/English</strong> interface in a live healthcare IT environment.</li>
         <li>Delivered <strong>67 passing automated tests</strong>, CSP security headers, and rate limiting before go-live.</li>
-        <li>Received a <strong>Certificate of Appreciation</strong> from hospital leadership · <a href="https://alkabkabi1.github.io/portfolio/#training">Portfolio</a></li>
+        <li>Received a <strong>Certificate of Appreciation</strong> from hospital leadership.</li>
       </ul>
     </section>
 
@@ -198,7 +210,7 @@
       <div class="entry-header">
         <div>
           <div class="entry-title">Ruwad — Student Clubs Platform (Graduation Project)</div>
-          <div class="entry-sub">Umm Al-Qura University &nbsp;|&nbsp; <a href="https://ruwad.space">ruwad.space</a></div>
+          <div class="entry-sub">Umm Al-Qura University &nbsp;|&nbsp; ruwad.space</div>
         </div>
         <div class="entry-date">2025 — 2026</div>
       </div>
@@ -212,14 +224,11 @@
     <section>
       <h2>Certifications &amp; Training</h2>
       <p class="sub-label">Completed</p>
-      <p class="cert-block"><strong>Build Your Portfolio Website with HTML and CSS</strong> — Coursera Project Network (Nov 2023) &nbsp;|&nbsp;
-         <a href="https://coursera.org/verify/M53HGSHR98Z8">Verify</a></p>
-      <p class="cert-block"><strong>Work Smarter, Not Harder: Time Management</strong> — UC Irvine / Coursera (Jul 2023) &nbsp;|&nbsp;
-         <a href="https://coursera.org/verify/C6M96FDN5RHA">Verify</a></p>
-      <p class="cert-block"><strong>Java Calculator with Java and JavaFX</strong> — Coursera Guided Project (Oct 2023) &nbsp;|&nbsp;
-         <a href="https://coursera.org/verify/2KX28F9G4VR4">Verify</a></p>
+      <p class="cert-block"><strong>Build Your Portfolio Website with HTML and CSS</strong> — Coursera Project Network (Nov 2023)</p>
+      <p class="cert-block"><strong>Work Smarter, Not Harder: Time Management</strong> — UC Irvine / Coursera (Jul 2023)</p>
+      <p class="cert-block"><strong>Java Calculator with Java and JavaFX</strong> — Coursera Guided Project (Oct 2023)</p>
 
-      <p class="cert-block" style="margin-top: 0.35rem;"><strong>Languages:</strong> Arabic (Native) &nbsp;|&nbsp; English (Intermediate — B1)</p>
+      <p class="cert-block" style="margin-top: 0.2rem;"><strong>Languages:</strong> Arabic (Native) &nbsp;|&nbsp; English (Intermediate — B1)</p>
     </section>
 
     <section>
@@ -228,27 +237,15 @@
         <li>
           <strong>Dr. Foziah Hassan Gazzawe</strong>
           <span class="ref-note">· Software Requirements II (100/100)</span>
-          <div class="ref-meta">
-            Associate Professor, Software Engineering Department,
-            Umm Al-Qura University ·
-            <a href="mailto:fhgazzawe@uqu.edu.sa">fhgazzawe@uqu.edu.sa</a> ·
-            <a href="assets/recommendation-gazzawe-requirements.pdf">Letter (PDF)</a>
-          </div>
+          <div class="ref-meta">Associate Professor, Software Engineering, UQU · fhgazzawe@uqu.edu.sa</div>
         </li>
         <li>
           <strong>Dr. Ahmed D. Alharthi</strong>
           <span class="ref-note">· Software Maintenance &amp; Configuration</span>
-          <div class="ref-meta">
-            Assistant Professor, Software Engineering Department,
-            Umm Al-Qura University ·
-            <a href="mailto:adharthi@uqu.edu.sa">adharthi@uqu.edu.sa</a> ·
-            <a href="assets/recommendation-alharthi-maintenance.pdf">Letter (PDF)</a>
-          </div>
+          <div class="ref-meta">Assistant Professor, Software Engineering, UQU · adharthi@uqu.edu.sa</div>
         </li>
       </ul>
     </section>
   </main>
-
-  <p class="print-hint">Print this page (Ctrl+P) and choose “Save as PDF” for a one-page resume.</p>
 </body>
 </html>

@@ -129,6 +129,9 @@
     const navMenuBtn = document.querySelector('.nav-toggle');
     if (navMenuBtn) navMenuBtn.setAttribute('aria-label', t('nav.menu', loc));
 
+    const navBackdrop = document.querySelector('.nav-backdrop');
+    if (navBackdrop) navBackdrop.setAttribute('aria-label', t('nav.close', loc));
+
     document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
       el.setAttribute('aria-label', t(el.getAttribute('data-i18n-aria'), loc));
     });
@@ -177,18 +180,55 @@
 
   const navToggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');
+  const navBackdrop = document.querySelector('.nav-backdrop');
+  const mobileNavQuery = window.matchMedia('(max-width: 1280px)');
+
+  function setNavOpen(open) {
+    if (!navLinks || !navToggle) return;
+    navLinks.classList.toggle('open', open);
+    navToggle.setAttribute('aria-expanded', String(open));
+    document.documentElement.classList.toggle('nav-menu-open', open);
+    document.body.classList.toggle('nav-menu-open', open);
+    if (navBackdrop) {
+      navBackdrop.hidden = !open;
+      navBackdrop.tabIndex = open ? 0 : -1;
+      navBackdrop.classList.toggle('is-visible', open);
+    }
+    if (mobileNavQuery.matches) {
+      navLinks.setAttribute('aria-hidden', open ? 'false' : 'true');
+    } else {
+      navLinks.removeAttribute('aria-hidden');
+    }
+  }
+
+  function syncNavMode() {
+    if (!navLinks) return;
+    if (!mobileNavQuery.matches) {
+      setNavOpen(false);
+      navLinks.removeAttribute('aria-hidden');
+    } else if (!navLinks.classList.contains('open')) {
+      navLinks.setAttribute('aria-hidden', 'true');
+    }
+  }
 
   if (navToggle && navLinks) {
+    syncNavMode();
+    mobileNavQuery.addEventListener('change', syncNavMode);
+
     navToggle.addEventListener('click', () => {
-      const open = navLinks.classList.toggle('open');
-      navToggle.setAttribute('aria-expanded', String(open));
+      setNavOpen(!navLinks.classList.contains('open'));
+    });
+
+    navBackdrop?.addEventListener('click', () => setNavOpen(false));
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+        setNavOpen(false);
+      }
     });
 
     navLinks.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-      });
+      link.addEventListener('click', () => setNavOpen(false));
     });
   }
 

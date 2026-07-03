@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Archive of academic course projects — Norah Alkabkabi">
+  <title>مشاريع المقررات | نورة الكبكبي</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=11">
+  <script>
+    (function () {
+      var th = localStorage.getItem('portfolio-theme');
+      var loc = localStorage.getItem('portfolio-locale');
+      document.documentElement.setAttribute('data-theme', th === 'dark' ? 'dark' : 'light');
+      if (loc === 'en') {
+        document.documentElement.setAttribute('lang', 'en');
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/logo-mark.svg" alt="" class="nav-logo-mark" width="28" height="28">
+        Norah<span>.</span>
+      </a>
+      <div class="nav-actions">
+        <button class="locale-toggle" type="button">English</button>
+        <button class="theme-toggle" type="button" aria-label="Theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+          <span class="nav-toggle-bars" aria-hidden="true">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="nav-links">
+    <li><a href="index.html#highlights" data-i18n="nav.highlights">Home</a></li>
+    <li><a href="index.html#course-projects" data-i18n="archive.back.featured">Featured projects</a></li>
+  </ul>
+  <button type="button" class="nav-backdrop" aria-label="Close menu" tabindex="-1" hidden></button>
+
+  <main class="section archive-page" style="padding-top: 2rem;">
+    <div class="container fade-in visible">
+      <p class="section-label" data-i18n="archive.label">Archive</p>
+      <h1 class="section-title" data-i18n="archive.title">All academic course projects</h1>
+      <p class="section-lead" data-i18n="archive.lead">Full archive of 18 team projects from Software Engineering coursework at Umm Al-Qura University.</p>
+      <a href="index.html#course-projects" class="btn btn-ghost archive-back-link" data-i18n="archive.back">← Back to portfolio</a>
+      
+    
+      <div class="course-projects-grid">
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p18.title">خط CI/CD آمن مع DevSecOps</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p18.course">DevOps · SE4206</p>
+          <p class="course-project-desc" data-i18n="courseproj.p18.desc">خط أنابيب GitHub Actions يفحص الثغرات تلقائياً، يبني حاوية Docker مع فحص صحة، ويرسل تنبيهات فورية عند النجاح أو الفشل.</p>
+          <a href="assets/course-projects/secure-cicd-devsecops.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p7.title">مختبر اختبار البرمجيات — Java</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p7.course">اختبار البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p7.desc">كتابة حالات اختبار يدوية لكود Java: التحقق من التسجيل ببيانات ناقصة وإعادة تعيين كلمة المرور.</p>
+          <a href="assets/course-projects/software-testing-lab.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p1.title">موقع Twine — تحليل الألوان</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p1.course">هندسة الويب</p>
+          <p class="course-project-desc" data-i18n="courseproj.p1.desc">موقع تسويقي لصالون يقدّم خدمات تحليل الألوان، مع صفحات للخدمات واختبار لاكتشاف لوحة الألوان المناسبة.</p>
+          <a href="assets/course-projects/twine-web-engineering.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p13.title">طلب طعام الحرم الجامعي</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p13.course">موضوعات مختارة في هندسة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p13.desc">معمارية Microservices لطلب وجبات الحرم: CI/CD، توصيات ذكية، وتبنّي مبادئ البرمجيات الخضراء.</p>
+          <a href="assets/course-projects/campus-food-ordering-microservices.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p2.title">تطبيق مقاصف الجامعة</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p2.course">تطوير تطبيقات الجوال · Flutter</p>
+          <p class="course-project-desc" data-i18n="courseproj.p2.desc">تصميم تطبيق جوال لطلب الوجبات من مقاصف أم القرى مسبقاً وتقليل وقت الانتظار بين المحاضرات.</p>
+          <a href="assets/course-projects/flutter-cafeteria.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p14.title">خط أنابيب هندسة البيانات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p14.course">هندسة البيانات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p14.desc">لوحة تحكم لأنماط حياة الطلاب — معالجة بيانات عبر SQLite وTinyDB وعرض تفاعلي بـ Streamlit.</p>
+          <a href="assets/course-projects/data-engineering-lifestyle-dashboard.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p4.title">قاعدة بيانات المكتبة</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p4.course">أساسيات قواعد البيانات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p4.desc">نمذجة قاعدة بيانات لمكتبة متعددة الفروع: الكتب، الفروع، الموظفون، العملاء، والمشتريات — بترميز Chen وUML.</p>
+          <a href="assets/course-projects/database-library.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p12.title">نظام حجز الرحلات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p12.course">تصميم وإنشاء البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p12.desc">تصميم نظام حجز رحلات يربط الركاب بالسائقين: خرائط، مدفوعات، وإدارة الرحلات عبر تطبيق وويب.</p>
+          <a href="assets/course-projects/software-design-ride-booking.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p3.title">نظام المنطقة الخضراء</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p3.course">تصميم وإنشاء البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p3.desc">توثيق حالات استخدام لنظام مراقبة المنطقة الخضراء: التصاريح، الغرامات، ونقاط المراقبة.</p>
+          <a href="assets/course-projects/software-design-green-zone.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p6.title">تحليل مبيعات الأفوكادو</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p6.course">تحليل البيانات وتعلّم الآلة</p>
+          <p class="course-project-desc" data-i18n="courseproj.p6.desc">خط أنابيب تحليل بيانات على مجموعة مبيعات الأفوكادو — تنظيف واستكشاف بـ Pandas وNumPy وتعلّم آلي بـ Scikit-learn.</p>
+          <a href="assets/course-projects/data-analysis-avocado.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p11.title">هجمات Clickjacking</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p11.course">أمن تطبيقات الويب</p>
+          <p class="course-project-desc" data-i18n="courseproj.p11.desc">تقرير بحثي عن هجمات إعادة توجيه النقرات: آلية العمل، أمثلة واقعية، والإجراءات الوقائية للمطورين والمستخدمين.</p>
+          <a href="assets/course-projects/clickjacking-security.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p10.title">تحليل واجهة المستخدم والاستخدام</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p10.course">متطلبات البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p10.desc">تقرير عن تقنيات تحليل الواجهات: اختبار قابلية الاستخدام، التقييم الإرشادي، المقابلات، وتحليل المهام.</p>
+          <a href="assets/course-projects/ui-analysis.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p5.title">حلّال البرمجة الخطية</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p5.course">بحوث العمليات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p5.desc">برنامج Python يقرأ دالة الهدف والقيود ويحلّ مسائل البرمجة الخطية باستخدام حذف Gaussian.</p>
+          <a href="assets/course-projects/operational-research-lp-solver.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p15.title">نظام فندق القطط</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p15.course">إدارة المشاريع</p>
+          <p class="course-project-desc" data-i18n="courseproj.p15.desc">خطة مشروع لفندق قطط: أصحاب المصلحة، المتطلبات، نطاق العمل، وسجل المخاطر.</p>
+          <a href="assets/course-projects/project-management-cat-hotel.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p8.title">قابلية تعديل البرمجيات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p8.course">جودة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p8.desc">عرض جماعي عن مفهوم Modifiability — لماذا يجب أن تكون الأنظمة قابلة للتغيير بأمان وسهولة مع مرور الوقت.</p>
+          <a href="assets/course-projects/software-modifiability.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p17.title">قابلية توسّع البرمجيات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p17.course">جودة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p17.desc">عرض جماعي عن Scalability — التعريف، الأنواع، العوامل المؤثرة، والتحديات مقابل الأداء.</p>
+          <a href="assets/course-projects/software-scalability.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p9.title">وظائف البرمجيات</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p9.course">جودة البرمجيات</p>
+          <p class="course-project-desc" data-i18n="courseproj.p9.desc">عرض جماعي يشرح مفهوم Software Functionality وأنواعه وأهميته في تلبية احتياجات المستخدم.</p>
+          <a href="assets/course-projects/software-functionality.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+
+        <article class="course-project-card">
+          <div class="course-project-header">
+            <h4 data-i18n="courseproj.p16.title">الحوسبة المكانية والكمية</h4>
+            <span class="badge badge-team" data-i18n="courseproj.badge.team">مشروع جماعي</span>
+          </div>
+          <p class="course-project-course" data-i18n="courseproj.p16.course">التقنيات الناشئة</p>
+          <p class="course-project-desc" data-i18n="courseproj.p16.desc">عرض جماعي عن Spatial Computing وQuantum Computing وتأثيرهما على مستقبل هندسة البرمجيات.</p>
+          <a href="assets/course-projects/emerging-tech-spatial-quantum.pdf" class="course-project-link" target="_blank" rel="noopener noreferrer" data-i18n="courseproj.link">عرض التقرير (PDF)</a>
+        </article>
+      </div>
+
+      
+      <p class="course-projects-note" data-i18n="courseproj.note">18 team projects from coursework — summaries reflect what we built together, not individual roles.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footer.copy">© 2026 نورة محمد الكبكبي</p>
+      <p class="footer-note" data-i18n="footer.note">خريجة هندسة برمجيات – جامعة أم القرى</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js?v=4"></script>
+  <script src="script.js?v=6"></script>
+</body>
+</html>
