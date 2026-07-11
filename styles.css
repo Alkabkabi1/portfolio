@@ -1455,6 +1455,39 @@ body.nav-menu-open {
   border-top: 1px solid var(--border-subtle);
 }
 
+.project-lineage {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+.project-lineage-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.project-lineage p {
+  margin: 0;
+}
+
+.project-lineage a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.project-lineage a:hover {
+  text-decoration: underline;
+}
+
 /* Impact / SRS */
 
 .impact-grid {

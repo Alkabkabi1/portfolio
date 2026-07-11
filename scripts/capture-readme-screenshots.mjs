@@ -12,7 +12,8 @@ const shots = [
   { name: 'hero-dark', theme: 'dark', target: null },
   { name: 'academics', theme: 'light', target: '#academics' },
   { name: 'training', theme: 'light', target: '#training' },
-  { name: 'ruwad', theme: 'light', target: '#project' },
+  { name: 'teamhub', theme: 'light', target: '#teamhub' },
+  { name: 'ruwad', theme: 'light', target: '#ruwad' },
 ];
 
 await mkdir(outDir, { recursive: true });
